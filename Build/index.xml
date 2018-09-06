@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Mobile Application" verbose="10" parallel="tests"
+	thread-count="1">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	<parameter name="selenium.browser" value="chrome" />
+
+	<!-- <parameter name="selenium.url" value="http://dashboard.staging.clearfunds.io/login" 
+		/> -->
+
+	<!-- <parameter name="selenium.url" value="http://demoqa.com/registration/" 
+		/> -->
+
+	<test name="create note:: 01">
+		<classes>
+			<class name="android.workpulsetask.index.NotepadIndex">
+				<methods>
+					<include name="createthenote" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- <test name="Rename note:: 02">
+		<classes>
+			<class name="android.workpulsetask.index.NotepadIndex">
+				<methods>
+					<include name="savethenotewithname" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	<!-- 
+	<test name="Update the application:: 01">
+		<classes>
+			<class name="android.workpulsetask.index.NotepadIndex">
+				<methods>
+					<include name="updatetheapp" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 -->
+	 
+	 <test name="Choose Backgrount color:: 02">
+		<classes>
+			<class name="android.workpulsetask.index.NotepadIndex">
+				<methods>
+					<include name="changebackgroundcolor" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

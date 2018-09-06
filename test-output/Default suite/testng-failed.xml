@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="android.workpulsetask.index.PortalIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Open_Task_05"/>
+        </methods>
+      </class> <!-- android.workpulsetask.index.PortalIndex -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

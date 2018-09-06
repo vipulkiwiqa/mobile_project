@@ -1,0 +1,490 @@
+2018-08-01 17:43:27 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:43:27 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 17:43:27 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:43:32 INFO  - ******** Test case ID: Open_Task_02
+2018-08-01 17:43:32 INFO  - ******** Test Objective: To Check the functionality of create Task When Add Task by Task application.
+2018-08-01 17:43:34 INFO  - Click on Skip Button
+2018-08-01 17:43:45 INFO  - Click on Sign In Button
+2018-08-01 17:43:47 INFO  - Click on Other button
+2018-08-01 17:43:58 INFO  - Enter Username : automation
+2018-08-01 17:44:07 INFO  - Enter Password : 123456
+2018-08-01 17:44:14 INFO  - Enter Access ID : 1111
+2018-08-01 17:44:16 INFO  - Click on Login Button
+2018-08-01 17:45:01 INFO  - Open Task Count :265
+2018-08-01 17:45:09 INFO  - Click on Add icon
+2018-08-01 17:45:14 INFO  - Title_okXNI
+2018-08-01 17:45:26 INFO  - Title Entered: Title_okXNI
+2018-08-01 17:45:26 INFO  - Description_kGAGc
+2018-08-01 17:45:35 INFO  - Description Entered: Description_kGAGc
+2018-08-01 17:45:49 INFO  - Open State Count Before:265
+2018-08-01 17:45:49 INFO  - Open State Count After :266
+2018-08-01 17:45:49 INFO  - Open Count does not match.
+2018-08-01 17:46:02 INFO  - Title from String : Title_okXNI
+2018-08-01 17:46:02 INFO  - Title in element: [2250] Title_okXNI
+2018-08-01 17:46:03 INFO  - ------------------Test Passed---------------------
+2018-08-01 17:46:06 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:46:06 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 17:46:06 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:46:19 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:46:19 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 17:46:19 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:46:24 INFO  - ******** Test case ID: Open_Task_03
+2018-08-01 17:46:24 INFO  - ******** Test Objective: To check the validation at the time of creating task.
+2018-08-01 17:46:26 INFO  - Click on Skip Button
+2018-08-01 17:46:37 INFO  - Click on Sign In Button
+2018-08-01 17:46:40 INFO  - Click on Other button
+2018-08-01 17:46:50 INFO  - Enter Username : automation
+2018-08-01 17:46:59 INFO  - Enter Password : 123456
+2018-08-01 17:47:06 INFO  - Enter Access ID : 1111
+2018-08-01 17:47:08 INFO  - Click on Login Button
+2018-08-01 17:47:53 INFO  - Open Task Count :266
+2018-08-01 17:48:01 INFO  - Click on Add icon
+2018-08-01 17:48:06 INFO  - Click on Add Task button without filling any data.
+2018-08-01 17:48:12 INFO  - Verify user should get validation Alert for blank Task Name (e.g. Please provide a valid Task Name.)
+2018-08-01 17:48:12 INFO  - ------------------Test Passed---------------------
+2018-08-01 17:48:15 INFO  - Enter only space in task title and description.
+2018-08-01 17:48:15 INFO  -        
+2018-08-01 17:48:26 INFO  - Title Entered:        
+2018-08-01 17:48:26 INFO  -        
+2018-08-01 17:48:34 INFO  - Description Entered:        
+2018-08-01 17:48:49 INFO  - Verify user should get error message for Entered space in Title and Description fields.
+2018-08-01 17:48:49 INFO  - ------------------Test Passed---------------------
+2018-08-01 17:48:52 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:48:52 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 17:48:52 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:49:05 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:49:05 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 17:49:05 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:49:10 INFO  - ******** Test case ID: Open_Task_04
+2018-08-01 17:49:10 INFO  - ******** Test Objective: To Check the functionality of create Task with adding images.
+2018-08-01 17:49:12 INFO  - Click on Skip Button
+2018-08-01 17:49:22 INFO  - Click on Sign In Button
+2018-08-01 17:49:25 INFO  - Click on Other button
+2018-08-01 17:49:35 INFO  - Enter Username : automation
+2018-08-01 17:49:44 INFO  - Enter Password : 123456
+2018-08-01 17:49:51 INFO  - Enter Access ID : 1111
+2018-08-01 17:49:53 INFO  - Click on Login Button
+2018-08-01 17:50:46 INFO  - Click on Add icon
+2018-08-01 17:50:51 INFO  - Title_HLJyn
+2018-08-01 17:51:04 INFO  - Title Entered: Title_HLJyn
+2018-08-01 17:51:04 INFO  - Description_IpDVv
+2018-08-01 17:51:12 INFO  - Description Entered: Description_IpDVv
+2018-08-01 17:51:23 INFO  - Click on 'Image(s)' image spinner.
+2018-08-01 17:51:23 INFO  - When user tap on 'Image(s)' spinner to add image then User should be able to see two options to add image, one Gallery and other from Camera.
+2018-08-01 17:51:24 INFO  - ------------------Test Passed---------------------
+2018-08-01 17:51:27 INFO  - Navigate back.
+2018-08-01 17:51:30 INFO  - Click on 'Image(s)' image spinner.
+2018-08-01 17:51:33 INFO  - Click on 'Camera Roll'.
+2018-08-01 17:52:07 INFO  - Select Captured Image.
+2018-08-01 17:52:15 INFO  - Click on 'Add more Image'.
+2018-08-01 17:52:15 INFO  - Verify that image is deleted successfully.
+2018-08-01 17:52:35 INFO  - ------------------Test Passed---------------------
+2018-08-01 17:52:37 INFO  - Click on 'Image(s)' image spinner.
+2018-08-01 17:52:39 INFO  - Click on 'Camera Roll'.
+2018-08-01 17:53:17 INFO  - Click on 'Add more Image'.
+2018-08-01 17:53:19 INFO  - Click on 'Camera Roll'.
+2018-08-01 17:53:59 INFO  - Click on 'Add more Image'.
+2018-08-01 17:54:02 INFO  - Click on 'Camera Roll'.
+2018-08-01 17:54:44 INFO  - Click on 'Add more Image'.
+2018-08-01 17:54:46 INFO  - Click on 'Camera Roll'.
+2018-08-01 17:55:29 INFO  - Click on 'Add more Image'.
+2018-08-01 17:55:32 INFO  - Click on 'Camera Roll'.
+2018-08-01 17:56:03 INFO  - Verify that user should able to add maximum 5 image, After that 'Add more image' button should disappear.
+2018-08-01 17:56:53 INFO  - ------------------Test Passed---------------------
+2018-08-01 17:57:11 INFO  - Click on open menu.
+2018-08-01 17:57:11 INFO  - Click on newly created open task : Title_HLJyn
+2018-08-01 17:57:19 INFO  - Selected or added images should be displayed with the created task.
+2018-08-01 17:57:19 INFO  - ------------------Test Passed---------------------
+2018-08-01 17:57:23 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:57:23 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 17:57:23 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:57:37 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:57:37 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 17:57:37 INFO  - --------------------------------------------------------------------------
+2018-08-01 17:57:42 INFO  - ******** Test case ID: Open_Task_05
+2018-08-01 17:57:42 INFO  - ******** Test Objective: To check the other effects of Open task when Add task by portal or app
+2018-08-01 17:57:44 INFO  - Click on Skip Button
+2018-08-01 17:57:54 INFO  - Click on Sign In Button
+2018-08-01 17:57:57 INFO  - Click on Other button
+2018-08-01 17:58:07 INFO  - Enter Username : automation
+2018-08-01 17:58:16 INFO  - Enter Password : 123456
+2018-08-01 17:58:23 INFO  - Enter Access ID : 1111
+2018-08-01 17:58:25 INFO  - Click on Login Button
+2018-08-01 17:59:10 INFO  - Open Task Count :267
+2018-08-01 17:59:11 INFO  - All Task Count :267
+2018-08-01 17:59:18 INFO  - Click on Add icon
+2018-08-01 17:59:24 INFO  - Title_QeRsa
+2018-08-01 17:59:36 INFO  - Title Entered: Title_QeRsa
+2018-08-01 17:59:36 INFO  - Description_soqbY
+2018-08-01 17:59:44 INFO  - Description Entered: Description_soqbY
+2018-08-01 17:59:58 INFO  - Open Task Count :268
+2018-08-01 17:59:59 INFO  - All Task Count :268
+2018-08-01 18:00:04 INFO  - Verify Open task count is Incremented by 1 after adding new task.
+2018-08-01 18:00:04 INFO  - Open Task Count after increment :268
+2018-08-01 18:00:04 INFO  - Verify All task count is Incremented by 1 after adding new task.
+2018-08-01 18:00:04 INFO  - All Task Count after increment :328
+2018-08-01 18:00:04 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:00:16 INFO  - Click on open menu.
+2018-08-01 18:00:21 INFO  - Verify that newly added task is marked as unread.
+2018-08-01 18:00:22 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:00:25 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:00:25 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:00:25 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:00:39 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:00:39 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:00:39 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:00:44 INFO  - ******** Test case ID: Open_Task_06
+2018-08-01 18:00:44 INFO  - ******** Test Objective: To check the available options for Open task If task is assigned to the User 'Auto 1'.
+2018-08-01 18:00:44 INFO  - Executing test Pre- Requisite: Task assign to the 'Auto 1' user.
+2018-08-01 18:00:50 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:00:50 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:00:50 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:01:04 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:01:04 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:01:04 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:01:09 INFO  - Executing test Pre- Requisite: Task assign to the 'Auto 1' user.
+2018-08-01 18:01:11 INFO  - Click on Skip Button
+2018-08-01 18:01:21 INFO  - Click on Sign In Button
+2018-08-01 18:01:24 INFO  - Click on Other button
+2018-08-01 18:01:34 INFO  - Enter Username : automation
+2018-08-01 18:01:44 INFO  - Enter Password : 123456
+2018-08-01 18:01:51 INFO  - Enter Access ID : 1111
+2018-08-01 18:01:53 INFO  - Click on Login Button
+2018-08-01 18:02:46 INFO  - Click on Add icon
+2018-08-01 18:02:51 INFO  - Title_OmrrD
+2018-08-01 18:03:04 INFO  - Title Entered: Title_OmrrD
+2018-08-01 18:03:04 INFO  - Description_lknKx
+2018-08-01 18:03:12 INFO  - Description Entered: Description_lknKx
+2018-08-01 18:03:40 INFO  - Click on open menu.
+2018-08-01 18:03:40 INFO  - Click on newly created open task : Title_OmrrD
+2018-08-01 18:03:43 INFO  - Click on 'Assigne Task' button.
+2018-08-01 18:03:50 INFO  - Search and select user: Auto 1
+2018-08-01 18:04:04 INFO  - Task Title_OmrrD is successfully assigned to 'Auto 1' user
+2018-08-01 18:04:04 INFO  - ******** Test case ID: InProgress_01
+2018-08-01 18:04:04 INFO  - ******** Test Objective: To check the available options for 'In Progress' task If task is assigned to the User 'Auto 1'
+2018-08-01 18:04:07 INFO  - Navigate back.
+2018-08-01 18:04:18 INFO  - Navigate back.
+2018-08-01 18:04:56 INFO  - Click on Sign In Button
+2018-08-01 18:04:59 INFO  - Click on Other button
+2018-08-01 18:05:10 INFO  - Enter Username : auto_1
+2018-08-01 18:05:19 INFO  - Enter Password : 123456
+2018-08-01 18:05:27 INFO  - Enter Access ID : 1111
+2018-08-01 18:05:28 INFO  - Click on Login Button
+2018-08-01 18:06:26 INFO  - Click on open menu.
+2018-08-01 18:06:26 INFO  - Click on First Task from open Task.
+2018-08-01 18:06:30 INFO  - Click on 'Change Status' button.
+2018-08-01 18:06:36 INFO  - Select 'In Progress' Status.
+2018-08-01 18:06:39 INFO  - Enter Note: Note_AIWWdptIuT
+2018-08-01 18:06:45 INFO  - Click on add button.
+2018-08-01 18:06:50 INFO  - Navigate back.
+2018-08-01 18:07:00 INFO  - Navigate back.
+2018-08-01 18:07:15 INFO  - Click on In Progress menu.
+2018-08-01 18:07:15 INFO  - Click on First Task from open Task.
+2018-08-01 18:07:24 INFO  - Verify that 'Add Note', 'Assign Task' and 'Change Status' buttons are enabled. & 'Pick Up Task' is disabled.
+2018-08-01 18:07:25 INFO  - Add Note button isEnabled: true
+2018-08-01 18:07:25 INFO  - Assign Task button isEnabled: true
+2018-08-01 18:07:25 INFO  - Change Status button isEnabled: false
+2018-08-01 18:07:25 INFO  - Pick Up Task button isEnabled: true
+2018-08-01 18:07:25 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:07:28 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:07:28 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:07:28 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:07:42 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:07:42 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:07:42 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:07:47 INFO  - Executing test Pre- Requisite: Task assign to the 'Auto 1' user.
+2018-08-01 18:07:49 INFO  - Click on Skip Button
+2018-08-01 18:07:59 INFO  - Click on Sign In Button
+2018-08-01 18:08:02 INFO  - Click on Other button
+2018-08-01 18:08:13 INFO  - Enter Username : automation
+2018-08-01 18:08:23 INFO  - Enter Password : 123456
+2018-08-01 18:08:30 INFO  - Enter Access ID : 1111
+2018-08-01 18:08:31 INFO  - Click on Login Button
+2018-08-01 18:09:24 INFO  - Click on Add icon
+2018-08-01 18:09:30 INFO  - Title_DSyrx
+2018-08-01 18:09:42 INFO  - Title Entered: Title_DSyrx
+2018-08-01 18:09:42 INFO  - Description_rtjiT
+2018-08-01 18:09:51 INFO  - Description Entered: Description_rtjiT
+2018-08-01 18:10:18 INFO  - Click on open menu.
+2018-08-01 18:10:18 INFO  - Click on newly created open task : Title_DSyrx
+2018-08-01 18:10:21 INFO  - Click on 'Assigne Task' button.
+2018-08-01 18:10:28 INFO  - Search and select user: Auto 1
+2018-08-01 18:10:43 INFO  - Task Title_DSyrx is successfully assigned to 'Auto 1' user
+2018-08-01 18:10:43 INFO  - ******** Test case ID: Closed_01
+2018-08-01 18:10:43 INFO  - ******** Test Objective: To check the available options for Closed  task If task is assigned to the User 'Auto 1'
+2018-08-01 18:10:46 INFO  - Navigate back.
+2018-08-01 18:10:56 INFO  - Navigate back.
+2018-08-01 18:11:34 INFO  - Click on Sign In Button
+2018-08-01 18:11:36 INFO  - Click on Other button
+2018-08-01 18:11:47 INFO  - Enter Username : auto_1
+2018-08-01 18:11:56 INFO  - Enter Password : 123456
+2018-08-01 18:12:04 INFO  - Enter Access ID : 1111
+2018-08-01 18:12:06 INFO  - Click on Login Button
+2018-08-01 18:13:03 INFO  - Click on open menu.
+2018-08-01 18:13:03 INFO  - Click on First Task from open Task.
+2018-08-01 18:13:07 INFO  - Click on 'Change Status' button.
+2018-08-01 18:13:13 INFO  - Select 'Closed' Status.
+2018-08-01 18:13:16 INFO  - Enter Note: Note_cNoAaAPFRU
+2018-08-01 18:13:21 INFO  - Click on add button.
+2018-08-01 18:13:26 INFO  - Navigate back.
+2018-08-01 18:13:37 INFO  - Navigate back.
+2018-08-01 18:13:42 INFO  - Click on Closed menu.
+2018-08-01 18:13:54 INFO  - Click on First Task from open Task.
+2018-08-01 18:14:03 INFO  - Verify that 'Add Note' and 'Change Status' buttons are enabled. & 'Assign Task' and 'Pick Up Task' is disabled.
+2018-08-01 18:14:03 INFO  - Add Note button isEnabled: true
+2018-08-01 18:14:03 INFO  - Assign Task button isEnabled: false
+2018-08-01 18:14:03 INFO  - Change Status button isEnabled: false
+2018-08-01 18:14:03 INFO  - Pick Up Task button isEnabled: true
+2018-08-01 18:14:03 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:14:07 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:14:07 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:14:07 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:14:20 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:14:20 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:14:20 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:14:25 INFO  - Executing test Pre- Requisite: Task assign to the 'Auto 1' user.
+2018-08-01 18:14:26 INFO  - Click on Skip Button
+2018-08-01 18:14:37 INFO  - Click on Sign In Button
+2018-08-01 18:14:39 INFO  - Click on Other button
+2018-08-01 18:14:50 INFO  - Enter Username : automation
+2018-08-01 18:14:59 INFO  - Enter Password : 123456
+2018-08-01 18:15:07 INFO  - Enter Access ID : 1111
+2018-08-01 18:15:08 INFO  - Click on Login Button
+2018-08-01 18:16:01 INFO  - Click on Add icon
+2018-08-01 18:16:06 INFO  - Title_PSIJH
+2018-08-01 18:16:19 INFO  - Title Entered: Title_PSIJH
+2018-08-01 18:16:19 INFO  - Description_XWQxf
+2018-08-01 18:16:27 INFO  - Description Entered: Description_XWQxf
+2018-08-01 18:16:55 INFO  - Click on open menu.
+2018-08-01 18:16:55 INFO  - Click on newly created open task : Title_PSIJH
+2018-08-01 18:16:58 INFO  - Click on 'Assigne Task' button.
+2018-08-01 18:17:05 INFO  - Search and select user: Auto 2
+2018-08-01 18:17:19 INFO  - Task Title_PSIJH is successfully assigned to 'Auto 1' user
+2018-08-01 18:17:22 INFO  - Navigate back.
+2018-08-01 18:17:33 INFO  - Navigate back.
+2018-08-01 18:17:45 INFO  - ******** Test case ID: Closed_02
+2018-08-01 18:17:45 INFO  - ******** Test Objective: To check the available options for Closed task If task is not assigned to the User 'Auto 1'.
+2018-08-01 18:18:10 INFO  - Click on Sign In Button
+2018-08-01 18:18:13 INFO  - Click on Other button
+2018-08-01 18:18:24 INFO  - Enter Username : auto_2
+2018-08-01 18:18:33 INFO  - Enter Password : 123456
+2018-08-01 18:18:40 INFO  - Enter Access ID : 1111
+2018-08-01 18:18:42 INFO  - Click on Login Button
+2018-08-01 18:19:39 INFO  - Click on open menu.
+2018-08-01 18:19:39 INFO  - Click on First Task from open Task.
+2018-08-01 18:19:43 INFO  - Click on 'Change Status' button.
+2018-08-01 18:19:49 INFO  - Select 'Closed' Status.
+2018-08-01 18:19:51 INFO  - Enter Note: Note_KcZwfggAHt
+2018-08-01 18:19:57 INFO  - Click on add button.
+2018-08-01 18:20:02 INFO  - Navigate back.
+2018-08-01 18:20:12 INFO  - Navigate back.
+2018-08-01 18:20:52 INFO  - Click on Sign In Button
+2018-08-01 18:20:54 INFO  - Click on Other button
+2018-08-01 18:21:05 INFO  - Enter Username : auto_1
+2018-08-01 18:21:14 INFO  - Enter Password : 123456
+2018-08-01 18:21:21 INFO  - Enter Access ID : 1111
+2018-08-01 18:21:22 INFO  - Click on Login Button
+2018-08-01 18:22:11 INFO  - Click on Closed menu.
+2018-08-01 18:22:23 INFO  - Click on First Task from open Task.
+2018-08-01 18:22:32 INFO  - Verify that 'Add Note' button is enabled. & 'Assign Task', 'Pick Up Task' and 'Change Status' is disabled.
+2018-08-01 18:22:33 INFO  - Add Note button isEnabled: true
+2018-08-01 18:22:33 INFO  - Assign Task button isEnabled: false
+2018-08-01 18:22:33 INFO  - Change Status button isEnabled: false
+2018-08-01 18:22:33 INFO  - Pick Up Task button isEnabled: false
+2018-08-01 18:22:33 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:22:36 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:22:36 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:22:36 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:22:50 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:22:50 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:22:50 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:22:55 INFO  - ******** Test case ID: Assign_Task_01
+2018-08-01 18:22:55 INFO  - ******** Test Objective: To check the functinoality of Assign task.
+2018-08-01 18:22:56 INFO  - Click on Skip Button
+2018-08-01 18:23:07 INFO  - Click on Sign In Button
+2018-08-01 18:23:09 INFO  - Click on Other button
+2018-08-01 18:23:20 INFO  - Enter Username : auto_1
+2018-08-01 18:23:29 INFO  - Enter Password : 123456
+2018-08-01 18:23:36 INFO  - Enter Access ID : 1111
+2018-08-01 18:23:38 INFO  - Click on Login Button
+2018-08-01 18:24:31 INFO  - Click on Add icon
+2018-08-01 18:24:36 INFO  - Title_afArw
+2018-08-01 18:24:48 INFO  - Title Entered: Title_afArw
+2018-08-01 18:24:48 INFO  - Description_GhDcW
+2018-08-01 18:24:57 INFO  - Description Entered: Description_GhDcW
+2018-08-01 18:25:25 INFO  - Click on open menu.
+2018-08-01 18:25:25 INFO  - Click on newly created open task : Title_afArw
+2018-08-01 18:25:27 INFO  - Click on 'Assigne Task' button.
+2018-08-01 18:25:34 INFO  - Veriy that 'Assign case' screen should be opened
+2018-08-01 18:25:35 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:25:35 INFO  - Search user: Auto 2
+2018-08-01 18:25:43 INFO  - Veriy that list of employee having access of 'Task Type' and 'location' should be opened e.g Auto 2
+2018-08-01 18:25:43 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:25:43 INFO  - select user: Auto 2
+2018-08-01 18:25:55 INFO  - Task Assigne history should be displayed on task detail screen.
+2018-08-01 18:25:55 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:25:58 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:25:58 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:25:58 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:26:12 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:26:12 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:26:12 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:26:17 INFO  - ******** Test case ID: Change_Status_01
+2018-08-01 18:26:17 INFO  - ******** Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at Open status..
+2018-08-01 18:26:17 INFO  - Executing test Pre- Requisite: Task assign to the 'Auto 1' user.
+2018-08-01 18:26:19 INFO  - Click on Skip Button
+2018-08-01 18:26:29 INFO  - Click on Sign In Button
+2018-08-01 18:26:32 INFO  - Click on Other button
+2018-08-01 18:26:42 INFO  - Enter Username : automation
+2018-08-01 18:26:51 INFO  - Enter Password : 123456
+2018-08-01 18:26:59 INFO  - Enter Access ID : 1111
+2018-08-01 18:27:00 INFO  - Click on Login Button
+2018-08-01 18:27:53 INFO  - Click on Add icon
+2018-08-01 18:27:59 INFO  - Title_aXjpS
+2018-08-01 18:28:11 INFO  - Title Entered: Title_aXjpS
+2018-08-01 18:28:11 INFO  - Description_qyPIs
+2018-08-01 18:28:20 INFO  - Description Entered: Description_qyPIs
+2018-08-01 18:28:47 INFO  - Click on open menu.
+2018-08-01 18:28:47 INFO  - Click on newly created open task : Title_aXjpS
+2018-08-01 18:28:50 INFO  - Click on 'Assigne Task' button.
+2018-08-01 18:28:57 INFO  - Search and select user: Auto 1
+2018-08-01 18:29:11 INFO  - Task Title_aXjpS is successfully assigned to 'Auto 1' user
+2018-08-01 18:29:14 INFO  - Navigate back.
+2018-08-01 18:29:23 INFO  - Navigate back.
+2018-08-01 18:29:36 INFO  - Test case ID: Change_Status_01
+2018-08-01 18:29:36 INFO  - Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at Open status.
+2018-08-01 18:30:01 INFO  - Click on Sign In Button
+2018-08-01 18:30:04 INFO  - Click on Other button
+2018-08-01 18:30:14 INFO  - Enter Username : auto_1
+2018-08-01 18:30:23 INFO  - Enter Password : 123456
+2018-08-01 18:30:31 INFO  - Enter Access ID : 1111
+2018-08-01 18:30:32 INFO  - Click on Login Button
+2018-08-01 18:31:17 INFO  - Open Task Count :215
+2018-08-01 18:31:30 INFO  - Click on open menu.
+2018-08-01 18:31:30 INFO  - Click on First Task from open Task.
+2018-08-01 18:31:34 INFO  - Click on 'Change Status' button.
+2018-08-01 18:31:40 INFO  - Verify that 'Change Status' screen should be opned.
+2018-08-01 18:32:04 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:32:04 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:32:04 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:32:17 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:32:17 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:32:17 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:32:22 INFO  - ******** Test case ID: Change_Status_02
+2018-08-01 18:32:22 INFO  - ******** Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at InProgress status.
+2018-08-01 18:32:22 INFO  - Executing test Pre- Requisite: Task assign to the 'Auto 1' user.
+2018-08-01 18:32:24 INFO  - Click on Skip Button
+2018-08-01 18:32:34 INFO  - Click on Sign In Button
+2018-08-01 18:32:37 INFO  - Click on Other button
+2018-08-01 18:32:48 INFO  - Enter Username : automation
+2018-08-01 18:32:57 INFO  - Enter Password : 123456
+2018-08-01 18:33:05 INFO  - Enter Access ID : 1111
+2018-08-01 18:33:06 INFO  - Click on Login Button
+2018-08-01 18:34:20 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:34:20 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:34:20 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:34:33 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:34:33 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:34:33 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:34:38 INFO  - ******** Test case ID: Change_Status_03
+2018-08-01 18:34:38 INFO  - ******** Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at Closed status.
+2018-08-01 18:34:38 INFO  - Executing test Pre- Requisite: Task assign to the 'Auto 1' user.
+2018-08-01 18:34:40 INFO  - Click on Skip Button
+2018-08-01 18:34:50 INFO  - Click on Sign In Button
+2018-08-01 18:34:53 INFO  - Click on Other button
+2018-08-01 18:35:03 INFO  - Enter Username : automation
+2018-08-01 18:35:12 INFO  - Enter Password : 123456
+2018-08-01 18:35:19 INFO  - Enter Access ID : 1111
+2018-08-01 18:35:21 INFO  - Click on Login Button
+2018-08-01 18:36:35 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:36:35 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:36:35 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:36:49 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:36:49 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:36:49 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:36:54 INFO  - ******** Test case ID: Count_Task_01
+2018-08-01 18:36:54 INFO  - ******** Test Objective: To check the available open, InProgress and Closed task and their count on Open status, Inprogress status and Closed status respectively.
+2018-08-01 18:36:56 INFO  - Click on Skip Button
+2018-08-01 18:37:06 INFO  - Click on Sign In Button
+2018-08-01 18:37:09 INFO  - Click on Other button
+2018-08-01 18:37:20 INFO  - Enter Username : auto_1
+2018-08-01 18:37:29 INFO  - Enter Password : 123456
+2018-08-01 18:37:36 INFO  - Enter Access ID : 1111
+2018-08-01 18:37:37 INFO  - Click on Login Button
+2018-08-01 18:38:27 INFO  - Total Open Task Count :215
+2018-08-01 18:38:27 INFO  - Total In progress Task Count :40
+2018-08-01 18:38:27 INFO  - Total Close Task Count :30
+2018-08-01 18:38:27 INFO  - Click on Open Task
+2018-08-01 18:38:43 INFO  - Count on Open Task screen: 215 Total & 215 Unread
+2018-08-01 18:38:43 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:38:43 INFO  - Navigate back.
+2018-08-01 18:38:46 INFO  - Navigate back.
+2018-08-01 18:38:48 INFO  - Click on In Progress Task
+2018-08-01 18:39:00 INFO  - Count on In Progress Task screen: 40 Total & 40 Unread
+2018-08-01 18:39:00 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:39:00 INFO  - Navigate back.
+2018-08-01 18:39:03 INFO  - Navigate back.
+2018-08-01 18:39:05 INFO  - Click on Closed Task
+2018-08-01 18:39:16 INFO  - Count on Closed Task screen: 30 Total & 30 Unread
+2018-08-01 18:39:16 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:39:19 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:39:19 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:39:19 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:39:33 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:39:33 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:39:33 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:39:38 INFO  - ******** Test case ID: Count_Unread_01
+2018-08-01 18:39:38 INFO  - ******** Test Objective: To check the unread count of Open, Inprogress and closed case task on Tasks screen.
+2018-08-01 18:39:40 INFO  - Click on Skip Button
+2018-08-01 18:39:51 INFO  - Click on Sign In Button
+2018-08-01 18:39:54 INFO  - Click on Other button
+2018-08-01 18:40:04 INFO  - Enter Username : auto_1
+2018-08-01 18:40:13 INFO  - Enter Password : 123456
+2018-08-01 18:40:21 INFO  - Enter Access ID : 1111
+2018-08-01 18:40:23 INFO  - Click on Login Button
+2018-08-01 18:41:13 INFO  - Total Open unread Task Count :215
+2018-08-01 18:41:13 INFO  - Total In progress unread Task Count :40
+2018-08-01 18:41:13 INFO  - Total Close unread Task Count :30
+2018-08-01 18:41:13 INFO  - Click on Open Task
+2018-08-01 18:41:28 INFO  - Count on Open Task screen: 215 Total & 215 Unread
+2018-08-01 18:41:28 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:41:28 INFO  - Navigate back.
+2018-08-01 18:41:31 INFO  - Navigate back.
+2018-08-01 18:41:33 INFO  - Click on In Progress Task
+2018-08-01 18:41:44 INFO  - Count on In Progress Task screen: 40 Total & 40 Unread
+2018-08-01 18:41:44 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:41:44 INFO  - Navigate back.
+2018-08-01 18:41:47 INFO  - Navigate back.
+2018-08-01 18:41:49 INFO  - Click on Closed Task
+2018-08-01 18:41:59 INFO  - Count on Closed Task screen: 30 Total & 30 Unread
+2018-08-01 18:41:59 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:42:02 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:42:02 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:42:02 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:42:16 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:42:16 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:42:16 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:42:21 INFO  - ******** Test case ID: Add_Notes_01
+2018-08-01 18:42:21 INFO  - ******** Test Objective: To check the functionality of 'Add Notes' option
+2018-08-01 18:42:22 INFO  - Click on Skip Button
+2018-08-01 18:42:33 INFO  - Click on Sign In Button
+2018-08-01 18:42:36 INFO  - Click on Other button
+2018-08-01 18:42:46 INFO  - Enter Username : auto_1
+2018-08-01 18:42:55 INFO  - Enter Password : 123456
+2018-08-01 18:43:02 INFO  - Enter Access ID : 1111
+2018-08-01 18:43:04 INFO  - Click on Login Button
+2018-08-01 18:44:01 INFO  - Click on open menu.
+2018-08-01 18:44:01 INFO  - Click on First Task from open Task.
+2018-08-01 18:44:08 INFO  - Click on 'Add Note' button.
+2018-08-01 18:44:09 INFO  - Enter Note: Note_SMjOFHLgIn
+2018-08-01 18:44:16 INFO  - Click on add button.
+2018-08-01 18:44:21 INFO  - Verify that note is added successfully and reflected on respective Task detail.
+2018-08-01 18:44:22 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:44:24 INFO  - Click on 'Add Note' button.
+2018-08-01 18:44:26 INFO  - Enter Note with space only.
+2018-08-01 18:44:30 INFO  - Click on add button.
+2018-08-01 18:44:34 INFO  - Verify that user should get validation message like 'The request is invalid.'
+2018-08-01 18:44:34 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:44:37 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:44:37 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:44:37 INFO  - --------------------------------------------------------------------------

@@ -1,0 +1,1107 @@
+<html>
+<head>
+<title>TestNG:  android.workpulsetask.index</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>android.workpulsetask.index</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/7/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 15 13:32:02 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>3570 seconds (3570725 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='android.workpulsetask.index.ChangeStatusIndex.Change_Status_01()'><b>Change_Status_01</b><br>Test class: android.workpulsetask.index.ChangeStatusIndex<br/>
+<a href="#Output-1022081840" onClick='toggleBox("Output-1022081840", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1022081840" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1022081840">
+<br>******** Test case ID: Change_Status_01</br><br/>
+<br>******** Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at Open status..</br><br/>
+<br>Executing test Pre- Requisite: Task assign to the 'Auto 1' user.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : automation</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Title_ziWAc</br><br/>
+<br>Title Entered: Title_ziWAc</br><br/>
+<br>Description_dNYjw</br><br/>
+<br>Description Entered: Description_dNYjw</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on newly created open task : Title_ziWAc</br><br/>
+<br>Click on 'Assigne Task' button.</br><br/>
+<br>Search and select user: Auto 1</br><br/>
+<br>Task Title_ziWAc is successfully assigned to 'Auto 1' user</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.AddNoteIndexpage.logout(AddNoteIndexpage.java:71)
+	at android.workpulsetask.index.ChangeStatusIndex.Change_Status_01(ChangeStatusIndex.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1022081840", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1022081840'><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.AddNoteIndexpage.logout(AddNoteIndexpage.java:71)
+	at android.workpulsetask.index.ChangeStatusIndex.Change_Status_01(ChangeStatusIndex.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>197</td>
+<td>android.workpulsetask.index.ChangeStatusIndex@39c0f4a</td></tr>
+<tr>
+<td title='android.workpulsetask.index.ChangeStatusIndex.Change_Status_02()'><b>Change_Status_02</b><br>Test class: android.workpulsetask.index.ChangeStatusIndex<br/>
+<a href="#Output-1374066265" onClick='toggleBox("Output-1374066265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1374066265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1374066265">
+<br>******** Test case ID: Change_Status_02</br><br/>
+<br>******** Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at InProgress status.</br><br/>
+<br>Executing test Pre- Requisite: Task assign to the 'Auto 1' user.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : automation</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Title_dMqlV</br><br/>
+<br>Title Entered: Title_dMqlV</br><br/>
+<br>Description_ijtaW</br><br/>
+<br>Description Entered: Description_ijtaW</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on newly created open task : Title_dMqlV</br><br/>
+<br>Click on 'Assigne Task' button.</br><br/>
+<br>Search and select user: Auto 1</br><br/>
+<br>Task Title_dMqlV is successfully assigned to 'Auto 1' user</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.AddNoteIndexpage.logout(AddNoteIndexpage.java:71)
+	at android.workpulsetask.index.ChangeStatusIndex.Change_Status_02(ChangeStatusIndex.java:174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1374066265", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1374066265'><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.AddNoteIndexpage.logout(AddNoteIndexpage.java:71)
+	at android.workpulsetask.index.ChangeStatusIndex.Change_Status_02(ChangeStatusIndex.java:174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>198</td>
+<td>android.workpulsetask.index.ChangeStatusIndex@39c0f4a</td></tr>
+<tr>
+<td title='android.workpulsetask.index.ChangeStatusIndex.Change_Status_03()'><b>Change_Status_03</b><br>Test class: android.workpulsetask.index.ChangeStatusIndex<br/>
+<a href="#Output-454104863" onClick='toggleBox("Output-454104863", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-454104863" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-454104863">
+<br>******** Test case ID: Change_Status_03</br><br/>
+<br>******** Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at Closed status.</br><br/>
+<br>Executing test Pre- Requisite: Task assign to the 'Auto 1' user.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : automation</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Title_ImAgf</br><br/>
+<br>Title Entered: Title_ImAgf</br><br/>
+<br>Description_WqQPy</br><br/>
+<br>Description Entered: Description_WqQPy</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on newly created open task : Title_ImAgf</br><br/>
+<br>Click on 'Assigne Task' button.</br><br/>
+<br>Search and select user: Auto 1</br><br/>
+<br>Task Title_ImAgf is successfully assigned to 'Auto 1' user</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.AddNoteIndexpage.logout(AddNoteIndexpage.java:71)
+	at android.workpulsetask.index.ChangeStatusIndex.Change_Status_03(ChangeStatusIndex.java:306)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace454104863", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace454104863'><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.AddNoteIndexpage.logout(AddNoteIndexpage.java:71)
+	at android.workpulsetask.index.ChangeStatusIndex.Change_Status_03(ChangeStatusIndex.java:306)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>196</td>
+<td>android.workpulsetask.index.ChangeStatusIndex@39c0f4a</td></tr>
+<tr>
+<td title='android.workpulsetask.index.AvailableOptionsIndex.Closed_02()'><b>Closed_02</b><br>Test class: android.workpulsetask.index.AvailableOptionsIndex<br/>
+<a href="#Output-1128948651" onClick='toggleBox("Output-1128948651", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1128948651" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1128948651">
+<br>Executing test Pre- Requisite: Task assign to the 'Auto 1' user.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : automation</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Title_TpqaR</br><br/>
+<br>Title Entered: Title_TpqaR</br><br/>
+<br>Description_SAuKL</br><br/>
+<br>Description Entered: Description_SAuKL</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on newly created open task : Title_TpqaR</br><br/>
+<br>Click on 'Assigne Task' button.</br><br/>
+<br>Search and select user: Auto 2</br><br/>
+<br>Task Title_TpqaR is successfully assigned to 'Auto 1' user</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+<br>******** Test case ID: Closed_02</br><br/>
+<br>******** Test Objective: To check the available options for Closed task If task is not assigned to the User 'Auto 1'.</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : auto_2</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on First Task from open Task.</br><br/>
+<br>Click on 'Change Status' button.</br><br/>
+<br>Select 'Closed' Status.</br><br/>
+<br>Enter Note: Note_uLsAJbXDrb</br><br/>
+<br>Click on add button.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.AddNoteIndexpage.logout(AddNoteIndexpage.java:71)
+	at android.workpulsetask.index.AvailableOptionsIndex.Closed_02(AvailableOptionsIndex.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1128948651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1128948651'><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.AddNoteIndexpage.logout(AddNoteIndexpage.java:71)
+	at android.workpulsetask.index.AvailableOptionsIndex.Closed_02(AvailableOptionsIndex.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>353</td>
+<td>android.workpulsetask.index.AvailableOptionsIndex@6093dd95</td></tr>
+<tr>
+<td title='android.workpulsetask.index.PortalIndex.Open_Task_04()'><b>Open_Task_04</b><br>Test class: android.workpulsetask.index.PortalIndex<br/>
+<a href="#Output-1623009085" onClick='toggleBox("Output-1623009085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1623009085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1623009085">
+<br>******** Test case ID: Open_Task_04</br><br/>
+<br>******** Test Objective: To Check the functionality of create Task with adding images.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : automation</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Title_UQQLP</br><br/>
+<br>Title Entered: Title_UQQLP</br><br/>
+<br>Description_mDCUj</br><br/>
+<br>Description Entered: Description_mDCUj</br><br/>
+<br>Click on 'Image(s)' image spinner.</br><br/>
+<br>When user tap on 'Image(s)' spinner to add image then User should be able to see two options to add image, one Gallery and other from Camera.</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+<br>Navigate back.</br><br/>
+<br>Click on 'Image(s)' image spinner.</br><br/>
+<br>Click on 'Camera Roll'.</br><br/>
+<br>Select Captured Image.</br><br/>
+<br>Click on 'Add more Image'.</br><br/>
+<br>Verify that image is deleted successfully.</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+<br>Click on 'Image(s)' image spinner.</br><br/>
+<br>Click on 'Camera Roll'.</br><br/>
+<br>Click on 'Add more Image'.</br><br/>
+<br>Click on 'Camera Roll'.</br><br/>
+<br>Click on 'Add more Image'.</br><br/>
+<br>Click on 'Camera Roll'.</br><br/>
+<br>Click on 'Add more Image'.</br><br/>
+<br>Click on 'Camera Roll'.</br><br/>
+<br>Click on 'Add more Image'.</br><br/>
+<br>Click on 'Camera Roll'.</br><br/>
+<br>Verify that user should able to add maximum 5 image, After that 'Add more image' button should disappear.</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.PortalIndexPage.clickOnOpenmenu(PortalIndexPage.java:251)
+	at android.workpulsetask.index.PortalIndex.Open_Task_04(PortalIndex.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1623009085", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1623009085'><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.PortalIndexPage.clickOnOpenmenu(PortalIndexPage.java:251)
+	at android.workpulsetask.index.PortalIndex.Open_Task_04(PortalIndex.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>453</td>
+<td>android.workpulsetask.index.PortalIndex@7d9d1a19</td></tr>
+<tr>
+<td title='android.workpulsetask.index.PortalIndex.Open_Task_05()'><b>Open_Task_05</b><br>Test class: android.workpulsetask.index.PortalIndex<br/>
+<a href="#Output-1450652220" onClick='toggleBox("Output-1450652220", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1450652220" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1450652220">
+<br>******** Test case ID: Open_Task_05</br><br/>
+<br>******** Test Objective: To check the other effects of Open task when Add task by portal or app</br><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Ankit-PC&apos;, ip: &apos;192.168.1.115&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.app.workpulse.task, deviceScreenSize=540x960, networkConnectionEnabled=true, noReset=false, warnings={}, databaseEnabled=false, deviceName=TA09407DYT, platform=LINUX, deviceUDID=TA09407DYT, appActivity=com.workpulse.task.SplashActivity, desired={appPackage=com.app.workpulse.task, appActivity=com.workpulse.task.SplashActivity, noReset=false, newCommandTimeout=600, platformVersion=5.1, autoGrantPermissions=true, unicodeKeyboard=true, platformName=Android, deviceName=TA09407DYT, resetKeyboard=true}, newCommandTimeout=600, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=MotoE2, unicodeKeyboard=true, platformName=Android, deviceManufacturer=motorola, resetKeyboard=true}]
+Session ID: 5eaf3926-442a-402f-8e56-5b126f30bdd0
+*** Element info: {Using=xpath, value=//*[@resource-id=&apos;com.app.workpulse.task:id/signin&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at android.workpulsetask.indexpage.PortalIndexPage.clickOnSignIn(PortalIndexPage.java:56)
+	at android.workpulsetask.indexpage.PortalIndexPage.doLogin(PortalIndexPage.java:27)
+	at android.workpulsetask.index.PortalIndex.Open_Task_05(PortalIndex.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1450652220", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1450652220'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Ankit-PC&apos;, ip: &apos;192.168.1.115&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.app.workpulse.task, deviceScreenSize=540x960, networkConnectionEnabled=true, noReset=false, warnings={}, databaseEnabled=false, deviceName=TA09407DYT, platform=LINUX, deviceUDID=TA09407DYT, appActivity=com.workpulse.task.SplashActivity, desired={appPackage=com.app.workpulse.task, appActivity=com.workpulse.task.SplashActivity, noReset=false, newCommandTimeout=600, platformVersion=5.1, autoGrantPermissions=true, unicodeKeyboard=true, platformName=Android, deviceName=TA09407DYT, resetKeyboard=true}, newCommandTimeout=600, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=MotoE2, unicodeKeyboard=true, platformName=Android, deviceManufacturer=motorola, resetKeyboard=true}]
+Session ID: 5eaf3926-442a-402f-8e56-5b126f30bdd0
+*** Element info: {Using=xpath, value=//*[@resource-id=&apos;com.app.workpulse.task:id/signin&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at android.workpulsetask.indexpage.PortalIndexPage.clickOnSignIn(PortalIndexPage.java:56)
+	at android.workpulsetask.indexpage.PortalIndexPage.doLogin(PortalIndexPage.java:27)
+	at android.workpulsetask.index.PortalIndex.Open_Task_05(PortalIndex.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>47</td>
+<td>android.workpulsetask.index.PortalIndex@7d9d1a19</td></tr>
+<tr>
+<td title='android.workpulsetask.index.PortalIndex.Open_Task_06()'><b>Open_Task_06</b><br>Test class: android.workpulsetask.index.PortalIndex<br/>
+<a href="#Output-953082513" onClick='toggleBox("Output-953082513", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-953082513" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-953082513">
+<br>******** Test case ID: Open_Task_06</br><br/>
+<br>******** Test Objective: To check the available options for Open task If task is assigned to the User 'Auto 1'.</br><br/>
+<br>Executing test Pre- Requisite: Task assign to the 'Auto 1' user.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : automation</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Title_SYglw</br><br/>
+<br>Title Entered: Title_SYglw</br><br/>
+<br>Description_TtkXi</br><br/>
+<br>Description Entered: Description_TtkXi</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on newly created open task : Title_SYglw</br><br/>
+<br>Click on 'Assigne Task' button.</br><br/>
+<br>Search and select user: Auto 1</br><br/>
+<br>Task Title_SYglw is successfully assigned to 'Auto 1' user</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.AddNoteIndexpage.logout(AddNoteIndexpage.java:71)
+	at android.workpulsetask.index.PortalIndex.Open_Task_06(PortalIndex.java:272)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace953082513", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace953082513'><pre>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at android.workpulsetask.indexpage.AddNoteIndexpage.logout(AddNoteIndexpage.java:71)
+	at android.workpulsetask.index.PortalIndex.Open_Task_06(PortalIndex.java:272)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>196</td>
+<td>android.workpulsetask.index.PortalIndex@7d9d1a19</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='android.workpulsetask.index.AddNoteIndex.Add_Notes_01()'><b>Add_Notes_01</b><br>Test class: android.workpulsetask.index.AddNoteIndex<br/>
+<a href="#Output-1212116343" onClick='toggleBox("Output-1212116343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1212116343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1212116343">
+<br>******** Test case ID: Add_Notes_01</br><br/>
+<br>******** Test Objective: To check the functionality of 'Add Notes' option</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : auto_1</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on First Task from open Task.</br><br/>
+<br>Click on 'Add Note' button.</br><br/>
+<br>Enter Note: Note_ylQVVtXWzH</br><br/>
+<br>Click on add button.</br><br/>
+<br>Verify that note is added successfully and reflected on respective Task detail.</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+<br>Click on 'Add Note' button.</br><br/>
+<br>Enter Note with space only.</br><br/>
+<br>Click on add button.</br><br/>
+<br>Verify that user should get validation message like 'The request is invalid.'</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+</div>
+</td>
+<td></td>
+<td>128</td>
+<td>android.workpulsetask.index.AddNoteIndex@4883b407</td></tr>
+<tr>
+<td title='android.workpulsetask.index.AssignFilterIndex.Assign_Task_01()'><b>Assign_Task_01</b><br>Test class: android.workpulsetask.index.AssignFilterIndex<br/>
+<a href="#Output-1537471098" onClick='toggleBox("Output-1537471098", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1537471098" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1537471098">
+<br>******** Test case ID: Assign_Task_01</br><br/>
+<br>******** Test Objective: To check the functinoality of Assign task.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : auto_1</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Title_tgobP</br><br/>
+<br>Title Entered: Title_tgobP</br><br/>
+<br>Description_ordLI</br><br/>
+<br>Description Entered: Description_ordLI</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on newly created open task : Title_tgobP</br><br/>
+<br>Click on 'Assigne Task' button.</br><br/>
+<br>Veriy that 'Assign case' screen should be opened</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+<br>Search user: Auto 2</br><br/>
+<br>Veriy that list of employee having access of 'Task Type' and 'location' should be opened e.g Auto 2</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+<br>select user: Auto 2</br><br/>
+<br>Task Assigne history should be displayed on task detail screen.</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+</div>
+</td>
+<td></td>
+<td>169</td>
+<td>android.workpulsetask.index.AssignFilterIndex@5622fdf</td></tr>
+<tr>
+<td title='android.workpulsetask.index.AvailableOptionsIndex.Closed_01()'><b>Closed_01</b><br>Test class: android.workpulsetask.index.AvailableOptionsIndex<br/>
+<a href="#Output-455785638" onClick='toggleBox("Output-455785638", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-455785638" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-455785638">
+<br>Executing test Pre- Requisite: Task assign to the 'Auto 1' user.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : automation</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Title_RJLTq</br><br/>
+<br>Title Entered: Title_RJLTq</br><br/>
+<br>Description_bAIOk</br><br/>
+<br>Description Entered: Description_bAIOk</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on newly created open task : Title_RJLTq</br><br/>
+<br>Click on 'Assigne Task' button.</br><br/>
+<br>Search and select user: Auto 1</br><br/>
+<br>Task Title_RJLTq is successfully assigned to 'Auto 1' user</br><br/>
+<br>******** Test case ID: Closed_01</br><br/>
+<br>******** Test Objective: To check the available options for Closed  task If task is assigned to the User 'Auto 1'</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : auto_1</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on First Task from open Task.</br><br/>
+<br>Click on 'Change Status' button.</br><br/>
+<br>Select 'Closed' Status.</br><br/>
+<br>Enter Note: Note_kisHUXgUxN</br><br/>
+<br>Click on add button.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Click on Closed menu.</br><br/>
+<br>Click on First Task from open Task.</br><br/>
+<br>Verify that 'Add Note' and 'Change Status' buttons are enabled. & 'Assign Task' and 'Pick Up Task' is disabled.</br><br/>
+<br>Add Note button isEnabled: true</br><br/>
+<br>Assign Task button isEnabled: false</br><br/>
+<br>Change Status button isEnabled: false</br><br/>
+<br>Pick Up Task button isEnabled: true</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+</div>
+</td>
+<td></td>
+<td>354</td>
+<td>android.workpulsetask.index.AvailableOptionsIndex@6093dd95</td></tr>
+<tr>
+<td title='android.workpulsetask.index.CountTaskIndex.Count_Task_01()'><b>Count_Task_01</b><br>Test class: android.workpulsetask.index.CountTaskIndex<br/>
+<a href="#Output-690052870" onClick='toggleBox("Output-690052870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-690052870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-690052870">
+<br>******** Test case ID: Count_Task_01</br><br/>
+<br>******** Test Objective: To check the available open, InProgress and Closed task and their count on Open status, Inprogress status and Closed status respectively.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : auto_1</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Total Open Task Count :235</br><br/>
+<br>Total In progress Task Count :53</br><br/>
+<br>Total Close Task Count :44</br><br/>
+<br>Click on Open Task</br><br/>
+<br>Count on Open Task screen: 235 Total & 235 Unread</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Click on In Progress Task</br><br/>
+<br>Count on In Progress Task screen: 53 Total & 53 Unread</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Click on Closed Task</br><br/>
+<br>Count on Closed Task screen: 44 Total & 44 Unread</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+</div>
+</td>
+<td></td>
+<td>135</td>
+<td>android.workpulsetask.index.CountTaskIndex@3e6fa38a</td></tr>
+<tr>
+<td title='android.workpulsetask.index.CountTaskIndex.Count_Unread_01()'><b>Count_Unread_01</b><br>Test class: android.workpulsetask.index.CountTaskIndex<br/>
+<a href="#Output-194707680" onClick='toggleBox("Output-194707680", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-194707680" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-194707680">
+<br>******** Test case ID: Count_Unread_01</br><br/>
+<br>******** Test Objective: To check the unread count of Open, Inprogress and closed case task on Tasks screen.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : auto_1</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Total Open unread Task Count :235</br><br/>
+<br>Total In progress unread Task Count :53</br><br/>
+<br>Total Close unread Task Count :44</br><br/>
+<br>Click on Open Task</br><br/>
+<br>Count on Open Task screen: 235 Total & 235 Unread</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Click on In Progress Task</br><br/>
+<br>Count on In Progress Task screen: 53 Total & 53 Unread</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Click on Closed Task</br><br/>
+<br>Count on Closed Task screen: 44 Total & 44 Unread</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+</div>
+</td>
+<td></td>
+<td>134</td>
+<td>android.workpulsetask.index.CountTaskIndex@3e6fa38a</td></tr>
+<tr>
+<td title='android.workpulsetask.index.AvailableOptionsIndex.InProgress_01()'><b>InProgress_01</b><br>Test class: android.workpulsetask.index.AvailableOptionsIndex<br/>
+<a href="#Output-1678046232" onClick='toggleBox("Output-1678046232", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1678046232" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1678046232">
+<br>Executing test Pre- Requisite: Task assign to the 'Auto 1' user.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : automation</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Title_RosrP</br><br/>
+<br>Title Entered: Title_RosrP</br><br/>
+<br>Description_poCum</br><br/>
+<br>Description Entered: Description_poCum</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on newly created open task : Title_RosrP</br><br/>
+<br>Click on 'Assigne Task' button.</br><br/>
+<br>Search and select user: Auto 1</br><br/>
+<br>Task Title_RosrP is successfully assigned to 'Auto 1' user</br><br/>
+<br>******** Test case ID: InProgress_01</br><br/>
+<br>******** Test Objective: To check the available options for 'In Progress' task If task is assigned to the User 'Auto 1'</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : auto_1</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Click on open menu.</br><br/>
+<br>Click on First Task from open Task.</br><br/>
+<br>Click on 'Change Status' button.</br><br/>
+<br>Select 'In Progress' Status.</br><br/>
+<br>Enter Note: Note_JiqsFbdBzd</br><br/>
+<br>Click on add button.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Navigate back.</br><br/>
+<br>Click on In Progress menu.</br><br/>
+<br>Click on First Task from open Task.</br><br/>
+<br>Verify that 'Add Note', 'Assign Task' and 'Change Status' buttons are enabled. & 'Pick Up Task' is disabled.</br><br/>
+<br>Add Note button isEnabled: true</br><br/>
+<br>Assign Task button isEnabled: true</br><br/>
+<br>Change Status button isEnabled: false</br><br/>
+<br>Pick Up Task button isEnabled: true</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+</div>
+</td>
+<td></td>
+<td>354</td>
+<td>android.workpulsetask.index.AvailableOptionsIndex@6093dd95</td></tr>
+<tr>
+<td title='android.workpulsetask.index.PortalIndex.Open_Task_02()'><b>Open_Task_02</b><br>Test class: android.workpulsetask.index.PortalIndex<br/>
+<a href="#Output-1387380406" onClick='toggleBox("Output-1387380406", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1387380406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1387380406">
+<br>******** Test case ID: Open_Task_02</br><br/>
+<br>******** Test Objective: To Check the functionality of create Task When Add Task by Task application.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : automation</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Open Task Count :299</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Title_Wexmp</br><br/>
+<br>Title Entered: Title_Wexmp</br><br/>
+<br>Description_noAwR</br><br/>
+<br>Description Entered: Description_noAwR</br><br/>
+<br>Open State Count Before:299</br><br/>
+<br>Open State Count After :300</br><br/>
+<br>Open Count does not match.</br><br/>
+<br>Title from String : Title_Wexmp</br><br/>
+<br>Title in element: [2334] Title_Wexmp</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+</div>
+</td>
+<td></td>
+<td>149</td>
+<td>android.workpulsetask.index.PortalIndex@7d9d1a19</td></tr>
+<tr>
+<td title='android.workpulsetask.index.PortalIndex.Open_Task_03()'><b>Open_Task_03</b><br>Test class: android.workpulsetask.index.PortalIndex<br/>
+<a href="#Output-37926966" onClick='toggleBox("Output-37926966", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-37926966" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-37926966">
+<br>******** Test case ID: Open_Task_03</br><br/>
+<br>******** Test Objective: To check the validation at the time of creating task.</br><br/>
+<br>Click on Skip Button</br><br/>
+<br>Click on Sign In Button</br><br/>
+<br>Click on Other button</br><br/>
+<br>Enter Username : automation</br><br/>
+<br>Enter Password : 123456</br><br/>
+<br>Enter Access ID : 1111</br><br/>
+<br>Click on Login Button</br><br/>
+<br>Open Task Count :300</br><br/>
+<br>Click on Add icon</br><br/>
+<br>Click on Add Task button without filling any data.</br><br/>
+<br>Verify user should get validation Alert for blank Task Name (e.g. Please provide a valid Task Name.)</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+<br>Enter only space in task title and description.</br><br/>
+<br>       </br><br/>
+<br>Title Entered:        </br><br/>
+<br>       </br><br/>
+<br>Description Entered:        </br><br/>
+<br>Verify user should get error message for Entered space in Title and Description fields.</br><br/>
+<br>------------------Test Passed---------------------</br><br/>
+</div>
+</td>
+<td></td>
+<td>144</td>
+<td>android.workpulsetask.index.PortalIndex@7d9d1a19</td></tr>
+</table><p>
+</body>
+</html>

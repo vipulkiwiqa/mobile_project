@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>******** Test case ID: Add_Notes_01</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>******** Test Objective: To check the functionality of 'Add Notes' option</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Click on the + button</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clicked on plus button</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Click on Note</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clicked on Note</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Enter Note</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Note Entered</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Click for home page</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Click Home Menu</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Click on Save the Note</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clicked on save note</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Enter name</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Click on Save Button</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Enter Text on Search Field</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Found the note</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Note Deleted</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clicked on logo</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Choose the Background color option</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Set the color Indicator</br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Mobile Application" duration-ms="230365" started-at="2018-09-06T05:52:50Z" finished-at="2018-09-06T05:56:40Z">
+    <groups>
+    </groups>
+    <test name="create note:: 01" duration-ms="176534" started-at="2018-09-06T05:52:50Z" finished-at="2018-09-06T05:55:47Z">
+      <class name="android.workpulsetask.index.NotepadIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.workpulsetask.index.NotepadIndex@7085bdee]" name="setUp" is-config="true" duration-ms="16743" started-at="2018-09-06T11:22:50Z" finished-at="2018-09-06T11:23:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void android.workpulsetask.index.NotepadIndex.createthenote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createthenote()[pri:0, instance:android.workpulsetask.index.NotepadIndex@7085bdee]" name="createthenote" duration-ms="156543" started-at="2018-09-06T11:23:07Z" finished-at="2018-09-06T11:25:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>******** Test case ID: Add_Notes_01</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>******** Test Objective: To check the functionality of 'Add Notes' option</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Click on the + button</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Clicked on plus button</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Click on Note</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Clicked on Note</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Enter Note</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Note Entered</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Click for home page</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Click Home Menu</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Click on Save the Note</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Clicked on save note</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Enter name</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Click on Save Button</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Enter Text on Search Field</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Found the note</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Note Deleted</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createthenote -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.workpulsetask.index.NotepadIndex@7085bdee]" name="tearDown" is-config="true" duration-ms="3237" started-at="2018-09-06T11:25:43Z" finished-at="2018-09-06T11:25:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createthenote status=SUCCESS method=NotepadIndex.createthenote()[pri:0, instance:android.workpulsetask.index.NotepadIndex@7085bdee] output=<br>******** Test case ID: Add_Notes_01</br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- android.workpulsetask.index.NotepadIndex -->
+    </test> <!-- create note:: 01 -->
+    <test name="Choose Backgrount color:: 02" duration-ms="53811" started-at="2018-09-06T05:55:47Z" finished-at="2018-09-06T05:56:40Z">
+      <class name="android.workpulsetask.index.NotepadIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.workpulsetask.index.NotepadIndex@dc24521]" name="setUp" is-config="true" duration-ms="16699" started-at="2018-09-06T11:25:47Z" finished-at="2018-09-06T11:26:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void android.workpulsetask.index.NotepadIndex.changebackgroundcolor() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="changebackgroundcolor()[pri:0, instance:android.workpulsetask.index.NotepadIndex@dc24521]" name="changebackgroundcolor" duration-ms="34247" started-at="2018-09-06T11:26:03Z" finished-at="2018-09-06T11:26:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Clicked on logo</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Choose the Background color option</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Set the color Indicator</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- changebackgroundcolor -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.workpulsetask.index.NotepadIndex@dc24521]" name="tearDown" is-config="true" duration-ms="2864" started-at="2018-09-06T11:26:38Z" finished-at="2018-09-06T11:26:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changebackgroundcolor status=SUCCESS method=NotepadIndex.changebackgroundcolor()[pri:0, instance:android.workpulsetask.index.NotepadIndex@dc24521] output=<br>Clicked on logo</br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- android.workpulsetask.index.NotepadIndex -->
+    </test> <!-- Choose Backgrount color:: 02 -->
+  </suite> <!-- Mobile Application -->
+</testng-results>

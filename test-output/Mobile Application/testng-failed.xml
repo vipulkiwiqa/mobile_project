@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [Mobile Application]" parallel="tests">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="chrome"/>
+  <test name="Choose Backgrount color:: 02(failed)" parallel="tests">
+    <classes>
+      <class name="android.workpulsetask.index.NotepadIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="changebackgroundcolor"/>
+        </methods>
+      </class> <!-- android.workpulsetask.index.NotepadIndex -->
+    </classes>
+  </test> <!-- Choose Backgrount color:: 02(failed) -->
+</suite> <!-- Failed suite [Mobile Application] -->

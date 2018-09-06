@@ -1,0 +1,200 @@
+2018-08-01 18:50:46 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:50:46 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:50:46 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:50:51 INFO  - ******** Test case ID: Change_Status_01
+2018-08-01 18:50:51 INFO  - ******** Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at Open status..
+2018-08-01 18:50:51 INFO  - Executing test Pre- Requisite: Task assign to the 'Auto 1' user.
+2018-08-01 18:50:56 INFO  - Click on Skip Button
+2018-08-01 18:51:06 INFO  - Click on Sign In Button
+2018-08-01 18:51:09 INFO  - Click on Other button
+2018-08-01 18:51:20 INFO  - Enter Username : automation
+2018-08-01 18:51:29 INFO  - Enter Password : 123456
+2018-08-01 18:51:36 INFO  - Enter Access ID : 1111
+2018-08-01 18:51:38 INFO  - Click on Login Button
+2018-08-01 18:52:33 INFO  - Click on Add icon
+2018-08-01 18:52:39 INFO  - Title_hWeiz
+2018-08-01 18:52:51 INFO  - Title Entered: Title_hWeiz
+2018-08-01 18:52:51 INFO  - Description_yFXlm
+2018-08-01 18:53:00 INFO  - Description Entered: Description_yFXlm
+2018-08-01 18:53:28 INFO  - Click on open menu.
+2018-08-01 18:53:28 INFO  - Click on newly created open task : Title_hWeiz
+2018-08-01 18:53:30 INFO  - Click on 'Assigne Task' button.
+2018-08-01 18:53:38 INFO  - Search and select user: Auto 1
+2018-08-01 18:53:51 INFO  - Task Title_hWeiz is successfully assigned to 'Auto 1' user
+2018-08-01 18:53:54 INFO  - Navigate back.
+2018-08-01 18:54:04 INFO  - Navigate back.
+2018-08-01 18:54:17 INFO  - Test case ID: Change_Status_01
+2018-08-01 18:54:17 INFO  - Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at Open status.
+2018-08-01 18:54:44 INFO  - Click on Sign In Button
+2018-08-01 18:54:47 INFO  - Click on Other button
+2018-08-01 18:54:58 INFO  - Enter Username : auto_1
+2018-08-01 18:55:07 INFO  - Enter Password : 123456
+2018-08-01 18:55:14 INFO  - Enter Access ID : 1111
+2018-08-01 18:55:16 INFO  - Click on Login Button
+2018-08-01 18:56:01 INFO  - Open Task Count :216
+2018-08-01 18:56:13 INFO  - Click on open menu.
+2018-08-01 18:56:13 INFO  - Click on First Task from open Task.
+2018-08-01 18:56:21 INFO  - Click on 'Change Status' button.
+2018-08-01 18:56:27 INFO  - Verify that 'Change Status' screen should be opned.
+2018-08-01 18:56:27 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:56:27 INFO  - Verify that 'Open' status should be selected by default.
+2018-08-01 18:56:27 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:56:27 INFO  - Verify that 'In Progress' and 'Closed' status should be un checked.
+2018-08-01 18:57:07 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:57:07 INFO  - Select 'In Progress' Status.
+2018-08-01 18:57:09 INFO  - Verify that user should be redirected to 'Add Note' screen.
+2018-08-01 18:57:10 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:57:10 INFO  - Enter Note: Note_dHNpIHwGPG
+2018-08-01 18:57:16 INFO  - Click on add button.
+2018-08-01 18:57:21 INFO  - Verify that task status should be change from 'Open' to 'In Progress'.
+2018-08-01 18:57:21 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:57:21 INFO  - Verify that changed status and added note should be displayed on Task detail screen.
+2018-08-01 18:57:21 INFO  - Status change details on Task detail page : Changed status from Open to In Progress.
+
+Note_dHNpIHwGPG
+2018-08-01 18:57:22 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:57:22 INFO  - Verify Date of status changed.
+2018-08-01 18:57:22 INFO  - Note added Date Time: 08/01/2018 06:57 PM
+2018-08-01 18:57:22 INFO  - Date and Time on status detail screen: Auto 1: 08/01/2018 06:57 PM
+2018-08-01 18:57:22 INFO  - ------------------Test Passed---------------------
+2018-08-01 18:57:25 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:57:25 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 18:57:25 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:57:39 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:57:39 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 18:57:39 INFO  - --------------------------------------------------------------------------
+2018-08-01 18:57:44 INFO  - ******** Test case ID: Change_Status_02
+2018-08-01 18:57:44 INFO  - ******** Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at InProgress status.
+2018-08-01 18:57:44 INFO  - Executing test Pre- Requisite: Task assign to the 'Auto 1' user.
+2018-08-01 18:57:48 INFO  - Click on Skip Button
+2018-08-01 18:57:59 INFO  - Click on Sign In Button
+2018-08-01 18:58:01 INFO  - Click on Other button
+2018-08-01 18:58:12 INFO  - Enter Username : automation
+2018-08-01 18:58:21 INFO  - Enter Password : 123456
+2018-08-01 18:58:28 INFO  - Enter Access ID : 1111
+2018-08-01 18:58:30 INFO  - Click on Login Button
+2018-08-01 18:59:25 INFO  - Click on Add icon
+2018-08-01 18:59:31 INFO  - Title_aSCxo
+2018-08-01 18:59:43 INFO  - Title Entered: Title_aSCxo
+2018-08-01 18:59:43 INFO  - Description_aZWMi
+2018-08-01 18:59:51 INFO  - Description Entered: Description_aZWMi
+2018-08-01 19:00:19 INFO  - Click on open menu.
+2018-08-01 19:00:19 INFO  - Click on newly created open task : Title_aSCxo
+2018-08-01 19:00:22 INFO  - Click on 'Assigne Task' button.
+2018-08-01 19:00:29 INFO  - Search and select user: Auto 1
+2018-08-01 19:00:43 INFO  - Task Title_aSCxo is successfully assigned to 'Auto 1' user
+2018-08-01 19:00:46 INFO  - Navigate back.
+2018-08-01 19:00:56 INFO  - Navigate back.
+2018-08-01 19:01:09 INFO  - Test case ID: Change_Status_02
+2018-08-01 19:01:09 INFO  - Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at InProgress status.
+2018-08-01 19:01:36 INFO  - Click on Sign In Button
+2018-08-01 19:01:39 INFO  - Click on Other button
+2018-08-01 19:01:50 INFO  - Enter Username : auto_1
+2018-08-01 19:01:59 INFO  - Enter Password : 123456
+2018-08-01 19:02:07 INFO  - Enter Access ID : 1111
+2018-08-01 19:02:09 INFO  - Click on Login Button
+2018-08-01 19:03:06 INFO  - Click on open menu.
+2018-08-01 19:03:06 INFO  - Click on First Task from open Task.
+2018-08-01 19:03:13 INFO  - Click on 'Change Status' button.
+2018-08-01 19:03:19 INFO  - Select 'In Progress' Status.
+2018-08-01 19:03:21 INFO  - Enter Note: Note_KRJAyTrqVt
+2018-08-01 19:03:28 INFO  - Click on add button.
+2018-08-01 19:03:33 INFO  - Navigate back.
+2018-08-01 19:03:43 INFO  - Navigate back.
+2018-08-01 19:03:59 INFO  - Click on In Progress menu.
+2018-08-01 19:03:59 INFO  - Click on First Task from open Task.
+2018-08-01 19:04:06 INFO  - Click on 'Change Status' button.
+2018-08-01 19:04:12 INFO  - Verify that 'Change Status' screen should be opned.
+2018-08-01 19:04:12 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:04:12 INFO  - Verify that 'In Progress' status should be selected by default.
+2018-08-01 19:04:12 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:04:12 INFO  - Verify that 'Open' and 'Closed' status should be un checked.
+2018-08-01 19:04:53 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:04:53 INFO  - Select 'Closed' Status.
+2018-08-01 19:04:55 INFO  - Verify that user should be redirected to 'Add Note' screen.
+2018-08-01 19:04:55 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:04:55 INFO  - Enter Note: Note_HnNoWqDbrd
+2018-08-01 19:05:02 INFO  - Click on add button.
+2018-08-01 19:05:08 INFO  - Verify that task status should be change from 'In Progress' to 'Closed'.
+2018-08-01 19:05:08 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:05:08 INFO  - Verify that changed status and added note should be displayed on Task detail screen.
+2018-08-01 19:05:08 INFO  - Status change details on Task detail page : Changed status from In Progress to Closed.
+
+Note_HnNoWqDbrd
+2018-08-01 19:05:08 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:05:08 INFO  - Verify Date of status changed.
+2018-08-01 19:05:08 INFO  - Note added Date Time: 08/01/2018 07:05 PM
+2018-08-01 19:05:08 INFO  - Date and Time on status detail screen: Auto 1: 08/01/2018 07:05 PM
+2018-08-01 19:05:08 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:05:12 INFO  - --------------------------------------------------------------------------
+2018-08-01 19:05:12 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 19:05:12 INFO  - --------------------------------------------------------------------------
+2018-08-01 19:05:25 INFO  - --------------------------------------------------------------------------
+2018-08-01 19:05:25 INFO  - ------------------- Initiating the Mobile App Session -------------------
+2018-08-01 19:05:25 INFO  - --------------------------------------------------------------------------
+2018-08-01 19:05:30 INFO  - ******** Test case ID: Change_Status_03
+2018-08-01 19:05:30 INFO  - ******** Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at Closed status.
+2018-08-01 19:05:30 INFO  - Executing test Pre- Requisite: Task assign to the 'Auto 1' user.
+2018-08-01 19:05:35 INFO  - Click on Skip Button
+2018-08-01 19:05:46 INFO  - Click on Sign In Button
+2018-08-01 19:05:48 INFO  - Click on Other button
+2018-08-01 19:05:59 INFO  - Enter Username : automation
+2018-08-01 19:06:08 INFO  - Enter Password : 123456
+2018-08-01 19:06:16 INFO  - Enter Access ID : 1111
+2018-08-01 19:06:17 INFO  - Click on Login Button
+2018-08-01 19:07:13 INFO  - Click on Add icon
+2018-08-01 19:07:18 INFO  - Title_alysI
+2018-08-01 19:07:30 INFO  - Title Entered: Title_alysI
+2018-08-01 19:07:30 INFO  - Description_dVrvz
+2018-08-01 19:07:38 INFO  - Description Entered: Description_dVrvz
+2018-08-01 19:08:06 INFO  - Click on open menu.
+2018-08-01 19:08:06 INFO  - Click on newly created open task : Title_alysI
+2018-08-01 19:08:09 INFO  - Click on 'Assigne Task' button.
+2018-08-01 19:08:16 INFO  - Search and select user: Auto 1
+2018-08-01 19:08:31 INFO  - Task Title_alysI is successfully assigned to 'Auto 1' user
+2018-08-01 19:08:34 INFO  - Navigate back.
+2018-08-01 19:08:43 INFO  - Navigate back.
+2018-08-01 19:08:56 INFO  - Test case ID: Change_Status_03
+2018-08-01 19:08:56 INFO  - Test Objective: To Check the 'Change Status' functionality If User 'Auto 1' is at Closed status.
+2018-08-01 19:09:23 INFO  - Click on Sign In Button
+2018-08-01 19:09:26 INFO  - Click on Other button
+2018-08-01 19:09:37 INFO  - Enter Username : auto_1
+2018-08-01 19:09:46 INFO  - Enter Password : 123456
+2018-08-01 19:09:54 INFO  - Enter Access ID : 1111
+2018-08-01 19:09:56 INFO  - Click on Login Button
+2018-08-01 19:10:53 INFO  - Click on open menu.
+2018-08-01 19:10:53 INFO  - Click on First Task from open Task.
+2018-08-01 19:11:00 INFO  - Click on 'Change Status' button.
+2018-08-01 19:11:06 INFO  - Select 'Closed' Status.
+2018-08-01 19:11:08 INFO  - Enter Note: Note_SETCMcBenT
+2018-08-01 19:11:16 INFO  - Click on add button.
+2018-08-01 19:11:20 INFO  - Navigate back.
+2018-08-01 19:11:31 INFO  - Navigate back.
+2018-08-01 19:11:35 INFO  - Click on Closed menu.
+2018-08-01 19:11:48 INFO  - Click on First Task from open Task.
+2018-08-01 19:11:55 INFO  - Click on 'Change Status' button.
+2018-08-01 19:12:01 INFO  - Verify that 'Change Status' screen should be opned.
+2018-08-01 19:12:01 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:12:01 INFO  - Verify that 'Closed' status should be selected by default.
+2018-08-01 19:12:01 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:12:01 INFO  - Verify that 'Open' and 'In Progress' status should be un checked.
+2018-08-01 19:12:42 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:12:42 INFO  - Select 'In Progress' Status.
+2018-08-01 19:12:44 INFO  - Verify that user should be redirected to 'Add Note' screen.
+2018-08-01 19:12:44 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:12:44 INFO  - Enter Note: Note_mXzqXjgeYN
+2018-08-01 19:12:50 INFO  - Click on add button.
+2018-08-01 19:12:56 INFO  - Verify that task status should be change from 'Open' to 'In Progress'.
+2018-08-01 19:12:56 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:12:56 INFO  - Verify that changed status and added note should be displayed on Task detail screen.
+2018-08-01 19:12:56 INFO  - Status change details on Task detail page: Changed status from Closed to In Progress.
+
+Note_mXzqXjgeYN
+2018-08-01 19:12:56 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:12:56 INFO  - Verify Date of status changed.
+2018-08-01 19:12:56 INFO  - Note added Date Time: 08/01/2018 07:12 PM
+2018-08-01 19:12:56 INFO  - Date and Time on status detail screen: Auto 1: 08/01/2018 07:12 PM
+2018-08-01 19:12:56 INFO  - ------------------Test Passed---------------------
+2018-08-01 19:13:00 INFO  - --------------------------------------------------------------------------
+2018-08-01 19:13:00 INFO  - ------------------------- Exiting the Mobile App -------------------------
+2018-08-01 19:13:00 INFO  - --------------------------------------------------------------------------

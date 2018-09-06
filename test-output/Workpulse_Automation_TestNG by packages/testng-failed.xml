@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Workpulse_Automation_TestNG by packages]">
+  <test name="android.workpulsetask.index(failed)">
+    <classes>
+      <class name="android.workpulsetask.index.CountTaskIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- android.workpulsetask.index.CountTaskIndex -->
+      <class name="android.workpulsetask.index.AvailableOptionsIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Closed_02"/>
+        </methods>
+      </class> <!-- android.workpulsetask.index.AvailableOptionsIndex -->
+      <class name="android.workpulsetask.index.AssignFilterIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- android.workpulsetask.index.AssignFilterIndex -->
+      <class name="android.workpulsetask.index.PortalIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Open_Task_05"/>
+          <include name="Open_Task_06"/>
+          <include name="Open_Task_04"/>
+        </methods>
+      </class> <!-- android.workpulsetask.index.PortalIndex -->
+      <class name="android.workpulsetask.index.AddNoteIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- android.workpulsetask.index.AddNoteIndex -->
+      <class name="android.workpulsetask.index.ChangeStatusIndex">
+        <methods>
+          <include name="Change_Status_01"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Change_Status_02"/>
+          <include name="Change_Status_03"/>
+        </methods>
+      </class> <!-- android.workpulsetask.index.ChangeStatusIndex -->
+    </classes>
+  </test> <!-- android.workpulsetask.index(failed) -->
+</suite> <!-- Failed suite [Workpulse_Automation_TestNG by packages] -->
