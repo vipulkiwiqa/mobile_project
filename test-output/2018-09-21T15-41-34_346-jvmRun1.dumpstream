@@ -1,0 +1,42 @@
+# Created at 2018-09-21T15:42:48.750
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+# Created at 2018-09-21T15:42:55.707
+Unexpected IOException with stream: <br>--------------------------------------------------------------------------</br>
+
+
+# Created at 2018-09-21T15:42:55.708
+Unexpected IOException with stream: <br>------------------- Initiating the Mobile App Session -------------------</br>
+
+
+# Created at 2018-09-21T15:42:55.708
+Unexpected IOException with stream: <br>--------------------------------------------------------------------------</br>
+
+
+# Created at 2018-09-21T15:43:00.708
+Unexpected IOException: 5,1,android.workpulsetask.index.RedBusIndex,a(android.workpulsetask.index.RedBusIndex),android.workpulsetask.index.RedBusIndex,null,null
+
+
+# Created at 2018-09-21T15:43:00.709
+Unexpected IOException with stream: <br>Choose The Language </br>
+
+
+# Created at 2018-09-21T15:43:21.246
+Unexpected IOException: 6,1,android.workpulsetask.index.RedBusIndex,a(android.workpulsetask.index.RedBusIndex),null,null,null
+
+
+# Created at 2018-09-21T15:43:21.247
+Unexpected IOException with stream: TEST PASSED - a
+
+
+
+# Created at 2018-09-21T15:43:29.321
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

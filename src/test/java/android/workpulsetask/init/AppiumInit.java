@@ -97,7 +97,10 @@ public class AppiumInit {
 			e.printStackTrace();
 		}
 		cap=new DesiredCapabilities();
-		File apkFile = new File("app/Notepad.apk");
+		//File apkFile = new File("app/Notepad.apk");
+		//File apkFile = new File("app/Facebook.apk");
+		File apkFile = new File("app/redBus Online Bus Ticket Booking Hotel Booking_v6.6.5_apkpure.com.apk");
+		
 		cap.setCapability("app",apkFile.getAbsolutePath());
 		cap.setCapability("platformVersion", "6.0");
 		cap.setCapability("platformName", "Android");
@@ -105,7 +108,7 @@ public class AppiumInit {
 		/*cap.setCapability("appPackage", "com.app.workpulse.task");
 		cap.setCapability("appActivity", "com.workpulse.task.SplashActivity");*/
 		cap.setCapability("autoGrantPermissions", true);
-		cap.setCapability("noReset", true);//change by vipul
+		cap.setCapability("noReset", false);//change by vipul
 		cap.setCapability("newCommandTimeout", 600);
 		cap.setCapability("unicodeKeyboard", true);
 		cap.setCapability("resetKeyboard", true);

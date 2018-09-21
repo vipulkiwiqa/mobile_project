@@ -1,0 +1,62 @@
+# Created at 2018-09-21T12:53:53.819
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+# Created at 2018-09-21T12:54:13.312
+Unexpected IOException: 8,1,android.workpulsetask.index.NotepadIndex,setUp(android.workpulsetask.index.NotepadIndex),null,An unknown server-side error occurred while processing the command. Original error: packageAndLaunchActivityFromManifest failed. Original error: Command 'java -jar C\005C:\005C\005CUsers\005C\005CDELL\005C\005CAppData\005C\005CLocal\005C\005CPrograms\005C\005CAppium\005C\005Cresources\005C\005Capp\005C\005Cnode_modules\005C\005Cappium-adb\005C\005Cjars\005C\005Cappium_apk_tools.jar printLaunchActivity D\005C:\005C\005Cvipul\005C\005CMobile_automation\005C\005CWorkpulse_Automation_TestNG\005C\005Capp\005C\005CFacebook.apk C\005C:\005C\005CUsers\005C\005CDELL\005C\005CAppData\005C\005CLocal\005C\005CTemp\005C\005Ccom.facebook.katana' exited with code 1; StdErr: Exception in thread "main" brut.androlib.AndrolibException: Multiple res specs: anim/(name removed)\000D\000A\0009at brut.androlib.res.data.ResType.addResSpec(ResType.java:58)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readEntry(ARSCDecoder.java:182)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readConfig(ARSCDecoder.java:157)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readType(ARSCDecoder.java:125)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:100)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:78)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:47)\000D\000A\0009at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:605)\000D\000A\0009at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:74)\000D\000A\0009at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:66)\000D\000A\0009at io.appium.apktools.AndroidManifestActivityHelper.decodeManifestXML(AndroidManifestActivityHelper.java:26)\000D\000A\0009at io.appium.apktools.Main.main(Main.java:33)\000D\000A (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 20.66 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.1.149'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0-ea'\000ADriver info: io.appium.java_client.android.AndroidDriver,null,An unknown server-side error occurred while processing the command. Original error: packageAndLaunchActivityFromManifest failed. Original error: Command 'java -jar C\005C:\005C\005CUsers\005C\005CDELL\005C\005CAppData\005C\005CLocal\005C\005CPrograms\005C\005CAppium\005C\005Cresources\005C\005Capp\005C\005Cnode_modules\005C\005Cappium-adb\005C\005Cjars\005C\005Cappium_apk_tools.jar printLaunchActivity D\005C:\005C\005Cvipul\005C\005CMobile_automation\005C\005CWorkpulse_Automation_TestNG\005C\005Capp\005C\005CFacebook.apk C\005C:\005C\005CUsers\005C\005CDELL\005C\005CAppData\005C\005CLocal\005C\005CTemp\005C\005Ccom.facebook.katana' exited with code 1; StdErr: Exception in thread "main" brut.androlib.AndrolibException: Multiple res specs: anim/(name removed)\000D\000A\0009at brut.androlib.res.data.ResType.addResSpec(ResType.java:58)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readEntry(ARSCDecoder.java:182)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readConfig(ARSCDecoder.java:157)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readType(ARSCDecoder.java:125)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:100)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:78)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:47)\000D\000A\0009at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:605)\000D\000A\0009at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:74)\000D\000A\0009at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:66)\000D\000A\0009at io.appium.apktools.AndroidManifestActivityHelper.decodeManifestXML(AndroidManifestActivityHelper.java:26)\000D\000A\0009at io.appium.apktools.Main.main(Main.java:33)\000D\000A (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 20.66 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.1.149'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0-ea'\000ADriver info: io.appium.java_client.android.AndroidDriver,NotepadIndex>AppiumInit.setUp:115 \00BB WebDriver An unknown server-side error occ...,org.openqa.selenium.WebDriverException: \000AAn unknown server-side error occurred while processing the command. Original error: packageAndLaunchActivityFromManifest failed. Original error: Command 'java -jar C\005C:\005C\005CUsers\005C\005CDELL\005C\005CAppData\005C\005CLocal\005C\005CPrograms\005C\005CAppium\005C\005Cresources\005C\005Capp\005C\005Cnode_modules\005C\005Cappium-adb\005C\005Cjars\005C\005Cappium_apk_tools.jar printLaunchActivity D\005C:\005C\005Cvipul\005C\005CMobile_automation\005C\005CWorkpulse_Automation_TestNG\005C\005Capp\005C\005CFacebook.apk C\005C:\005C\005CUsers\005C\005CDELL\005C\005CAppData\005C\005CLocal\005C\005CTemp\005C\005Ccom.facebook.katana' exited with code 1; StdErr: Exception in thread "main" brut.androlib.AndrolibException: Multiple res specs: anim/(name removed)\000D\000A\0009at brut.androlib.res.data.ResType.addResSpec(ResType.java:58)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readEntry(ARSCDecoder.java:182)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readConfig(ARSCDecoder.java:157)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readType(ARSCDecoder.java:125)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readPackage(ARSCDecoder.java:100)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.readTable(ARSCDecoder.java:78)\000D\000A\0009at brut.androlib.res.decoder.ARSCDecoder.decode(ARSCDecoder.java:47)\000D\000A\0009at brut.androlib.res.AndrolibResources.getResPackagesFromApk(AndrolibResources.java:605)\000D\000A\0009at brut.androlib.res.AndrolibResources.loadMainPkg(AndrolibResources.java:74)\000D\000A\0009at brut.androlib.res.AndrolibResources.getResTable(AndrolibResources.java:66)\000D\000A\0009at io.appium.apktools.AndroidManifestActivityHelper.decodeManifestXML(AndroidManifestActivityHelper.java:26)\000D\000A\0009at io.appium.apktools.Main.main(Main.java:33)\000D\000A (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 20.66 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.1.149'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0-ea'\000ADriver info: io.appium.java_client.android.AndroidDriver\000A
+
+
+# Created at 2018-09-21T12:54:13.313
+Unexpected IOException: 5,1,android.workpulsetask.index.NotepadIndex,changebackgroundcolor(android.workpulsetask.index.NotepadIndex),android.workpulsetask.index.NotepadIndex,null,null
+
+
+# Created at 2018-09-21T12:54:13.314
+Unexpected IOException: 9,1,android.workpulsetask.index.NotepadIndex,changebackgroundcolor(android.workpulsetask.index.NotepadIndex),null,null,null
+
+
+# Created at 2018-09-21T12:54:13.314
+Unexpected IOException with stream: =====Creating Log=======
+
+
+# Created at 2018-09-21T12:54:13.315
+Unexpected IOException with stream: =====Log Completed=======
+
+
+# Created at 2018-09-21T12:54:13.315
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-21T12:54:13.316
+Unexpected IOException with stream: TEST FAILED - changebackgroundcolor
+
+
+# Created at 2018-09-21T12:54:13.316
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-21T12:54:13.317
+Unexpected IOException with stream: ERROR MESSAGE: null
+
+
+# Created at 2018-09-21T12:54:13.317
+Unexpected IOException with stream: 
+
+
+
+# Created at 2018-09-21T12:54:13.319
+Unexpected IOException with stream: ========++++++0921125413318========++++++++++
+
+
+# Created at 2018-09-21T12:54:13.323
+Unexpected IOException: 8,1,android.workpulsetask.index.NotepadIndex,tearDown(android.workpulsetask.index.NotepadIndex),null,null,null,null,NotepadIndex>AppiumInit.tearDown:213 \00BB NullPointer,java.lang.NullPointerException\000A
+
+
+# Created at 2018-09-21T12:54:13.461
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

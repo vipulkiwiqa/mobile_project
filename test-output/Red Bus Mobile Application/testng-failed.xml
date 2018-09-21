@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Red Bus Mobile Application]" parallel="tests">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="chrome"/>
+  <test name="create note:: 01(failed)" parallel="tests">
+    <classes>
+      <class name="android.workpulsetask.index.RedBusIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="a"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- android.workpulsetask.index.RedBusIndex -->
+    </classes>
+  </test> <!-- create note:: 01(failed) -->
+</suite> <!-- Failed suite [Red Bus Mobile Application] -->
