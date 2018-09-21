@@ -111,9 +111,9 @@ public class NotepadIndexPage {
 		
        TestCommons.log("Click Home Menu");
 		
-		TestCommons.pause(4);
+		TestCommons.pause(10);
 
-		MobileElement clickforhomepage = androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.TextView"));
+		MobileElement clickforhomepage = androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.RelativeLayout/android.widget.TextView"));
 		
 		clickforhomepage.click();
         
@@ -239,7 +239,7 @@ public class NotepadIndexPage {
 	public static void clickonupdatebutton(AndroidDriver<MobileElement> androidDriver) {
 		// TODO Auto-generated method stub
 		
-        TestCommons.pause(4);
+        TestCommons.pause(10);
 		
 		MobileElement updatelogo = androidDriver.findElement(By.id("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.view.View/android.view.View[3]/android.view.View/android.widget.Button[2]"));
 		
@@ -259,9 +259,9 @@ public class NotepadIndexPage {
 	public static void clickonBackgroundcolor(AndroidDriver<MobileElement> androidDriver) {
 		// TODO Auto-generated method stub
 		
-        TestCommons.pause(4);
+        TestCommons.pause(10);
 		TestCommons.log("Choose the Background color option");
-		MobileElement bckcolr = androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[4]/android.widget.RelativeLayout/android.widget.TextView"));
+		MobileElement bckcolr = androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[4]/android.widget.RelativeLayout/android.widget.TextView"));
 		
 		bckcolr.click();
 		
@@ -273,7 +273,7 @@ public class NotepadIndexPage {
 
 	public static void movethecolorindicator(AndroidDriver<MobileElement> androidDriver) {
 		// TODO Auto-generated method stub
-		TestCommons.pause(6);
+		TestCommons.pause(10);
 		TestCommons.log("Set the color Indicator");
 		MobileElement indicator = androidDriver.findElement(By.id("ru.andrey.notepad:id/ambilwarna_viewHue"));
 		
@@ -285,9 +285,8 @@ public class NotepadIndexPage {
 		int lowerY = upperY + indicator.getSize().getHeight();
 		int middleY = (upperY + lowerY) / 2;
 		
-		int i =TestCommons.getRandomNumber(150);
-		
-		androidDriver.tap(1, leftX, upperY+i, 3);	
+		int i =TestCommons.randBetween(200, 500);
+		androidDriver.tap(1, leftX, lowerY-i, 3);	
 		
 		TestCommons.pause(6);
 		/*Actions act = new Actions(androidDriver);
@@ -299,6 +298,54 @@ public class NotepadIndexPage {
 		ok.click();
 		
 		TestCommons.pause(10);
+		
+	}
+
+	public static void editnote(AndroidDriver<MobileElement> androidDriver) {
+		// TODO Auto-generated method stub
+        TestCommons.log("Enter Text on Search Field");
+		
+		TestCommons.pause(4);
+
+		MobileElement keyword = androidDriver.findElementById("ru.andrey.notepad:id/editText1");
+		
+		keyword.sendKeys(name);
+		
+		//TestCommons.pause(3);
+		
+		//keyword.sendKeys(Keys.ENTER);
+		
+		TestCommons.pause(10);
+		
+		MobileElement note_edit = androidDriver.findElement(By.id("ru.andrey.notepad:id/imageView1"));
+		
+		if(note_edit.isDisplayed())
+		{
+		TestCommons.log("Found the note");
+		note_edit.click();
+		}
+		else
+			TestCommons.log("Note not found");
+		
+       TestCommons.pause(2);
+		
+       TestCommons.log("Enter Note");
+		
+		TestCommons.pause(4);
+
+		MobileElement Notedata = androidDriver.findElement(By.id("ru.andrey.notepad:id/editText1"));
+		
+	   Notedata.clear();	
+       Notedata.click();
+       
+       String data = TestCommons.generateRandomChars(150);
+       
+       Notedata.sendKeys(data);
+		
+		TestCommons.pause(10);
+		
+		TestCommons.log("Note Entered");
+		
 		
 	}
 

@@ -99,7 +99,7 @@ public class AppiumInit {
 		cap=new DesiredCapabilities();
 		File apkFile = new File("app/Notepad.apk");
 		cap.setCapability("app",apkFile.getAbsolutePath());
-		cap.setCapability("platformVersion", "5.1");
+		cap.setCapability("platformVersion", "6.0");
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("deviceName", "TA09407DYT");
 		/*cap.setCapability("appPackage", "com.app.workpulse.task");

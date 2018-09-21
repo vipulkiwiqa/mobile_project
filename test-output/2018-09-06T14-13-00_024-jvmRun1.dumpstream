@@ -1,0 +1,86 @@
+# Created at 2018-09-06T14:14:02.166
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+# Created at 2018-09-06T14:14:02.759
+Unexpected IOException with stream: <br>--------------------------------------------------------------------------</br>
+
+
+# Created at 2018-09-06T14:14:02.759
+Unexpected IOException with stream: <br>------------------- Initiating the Mobile App Session -------------------</br>
+
+
+# Created at 2018-09-06T14:14:02.760
+Unexpected IOException with stream: <br>--------------------------------------------------------------------------</br>
+
+
+# Created at 2018-09-06T14:14:07.760
+Unexpected IOException: 5,1,android.workpulsetask.index.NotepadIndex,changebackgroundcolor(android.workpulsetask.index.NotepadIndex),android.workpulsetask.index.NotepadIndex,null,null
+
+
+# Created at 2018-09-06T14:14:11.760
+Unexpected IOException with stream: <br>Clicked on logo</br>
+
+
+# Created at 2018-09-06T14:14:19.942
+Unexpected IOException: 8,1,android.workpulsetask.index.NotepadIndex,changebackgroundcolor(android.workpulsetask.index.NotepadIndex),null,An unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 8.17 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.1.114'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0-ea'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities [{appPackage=ru.andrey.notepad\002C noReset=true\002C deviceName=TA09407DYT\002C platform=LINUX\002C deviceUDID=TA09407DYT\002C desired={app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C noReset=true\002C newCommandTimeout=600\002C platformVersion=5.1\002C autoGrantPermissions=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceName=TA09407DYT\002C resetKeyboard=true}\002C newCommandTimeout=600\002C platformVersion=5.1\002C webStorageEnabled=false\002C takesScreenshot=true\002C javascriptEnabled=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceManufacturer=motorola\002C resetKeyboard=true\002C app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C deviceScreenSize=540x960\002C networkConnectionEnabled=true\002C warnings={}\002C appWaitPackage=ru.andrey.notepad\002C appWaitActivity=ru.andrey.notepad.MainActivity\002C databaseEnabled=false\002C appActivity=ru.andrey.notepad.MainActivity\002C locationContextEnabled=false\002C autoGrantPermissions=true\002C deviceModel=MotoE2}]\000ASession ID: b3e4ef46-1883-4b6f-be36-7b387d4aa85b\000A*** Element info: {Using=id\002C value=ru.andrey.notepad:id/button4},null,An unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 8.17 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.1.114'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0-ea'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities [{appPackage=ru.andrey.notepad\002C noReset=true\002C deviceName=TA09407DYT\002C platform=LINUX\002C deviceUDID=TA09407DYT\002C desired={app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C noReset=true\002C newCommandTimeout=600\002C platformVersion=5.1\002C autoGrantPermissions=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceName=TA09407DYT\002C resetKeyboard=true}\002C newCommandTimeout=600\002C platformVersion=5.1\002C webStorageEnabled=false\002C takesScreenshot=true\002C javascriptEnabled=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceManufacturer=motorola\002C resetKeyboard=true\002C app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C deviceScreenSize=540x960\002C networkConnectionEnabled=true\002C warnings={}\002C appWaitPackage=ru.andrey.notepad\002C appWaitActivity=ru.andrey.notepad.MainActivity\002C databaseEnabled=false\002C appActivity=ru.andrey.notepad.MainActivity\002C locationContextEnabled=false\002C autoGrantPermissions=true\002C deviceModel=MotoE2}]\000ASession ID: b3e4ef46-1883-4b6f-be36-7b387d4aa85b\000A*** Element info: {Using=id\002C value=ru.andrey.notepad:id/button4},NotepadIndex.changebackgroundcolor:86 \00BB WebDriver An unknown server-side error...,org.openqa.selenium.WebDriverException: \000AAn unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 8.17 seconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.1.114'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0-ea'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities [{appPackage=ru.andrey.notepad\002C noReset=true\002C deviceName=TA09407DYT\002C platform=LINUX\002C deviceUDID=TA09407DYT\002C desired={app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C noReset=true\002C newCommandTimeout=600\002C platformVersion=5.1\002C autoGrantPermissions=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceName=TA09407DYT\002C resetKeyboard=true}\002C newCommandTimeout=600\002C platformVersion=5.1\002C webStorageEnabled=false\002C takesScreenshot=true\002C javascriptEnabled=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceManufacturer=motorola\002C resetKeyboard=true\002C app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C deviceScreenSize=540x960\002C networkConnectionEnabled=true\002C warnings={}\002C appWaitPackage=ru.andrey.notepad\002C appWaitActivity=ru.andrey.notepad.MainActivity\002C databaseEnabled=false\002C appActivity=ru.andrey.notepad.MainActivity\002C locationContextEnabled=false\002C autoGrantPermissions=true\002C deviceModel=MotoE2}]\000ASession ID: b3e4ef46-1883-4b6f-be36-7b387d4aa85b\000A*** Element info: {Using=id\002C value=ru.andrey.notepad:id/button4}\000A\0009at android.workpulsetask.index.NotepadIndex.changebackgroundcolor(NotepadIndex.java:86)\000A
+
+
+# Created at 2018-09-06T14:14:19.945
+Unexpected IOException with stream: =====Creating Log=======
+
+
+# Created at 2018-09-06T14:14:19.945
+Unexpected IOException with stream: =====Log Completed=======
+
+
+# Created at 2018-09-06T14:14:19.946
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-06T14:14:19.946
+Unexpected IOException with stream: TEST FAILED - changebackgroundcolor
+
+
+# Created at 2018-09-06T14:14:19.946
+Unexpected IOException with stream: 
+
+
+# Created at 2018-09-06T14:14:19.952
+Unexpected IOException with stream: ERROR MESSAGE: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.17 seconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'DELL-PC', ip: '192.168.1.114', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0-ea'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=ru.andrey.notepad, noReset=true, deviceName=TA09407DYT, platform=LINUX, deviceUDID=TA09407DYT, desired={app=D:\vipul\Mobile_automation\Workpulse_Automation_TestNG\app\Notepad.apk, noReset=true, newCommandTimeout=600, platformVersion=5.1, autoGrantPermissions=true, unicodeKeyboard=true, platformName=Android, deviceName=TA09407DYT, resetKeyboard=true}, newCommandTimeout=600, platformVersion=5.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=motorola, resetKeyboard=true, app=D:\vipul\Mobile_automation\Workpulse_Automation_TestNG\app\Notepad.apk, deviceScreenSize=540x960, networkConnectionEnabled=true, warnings={}, appWaitPackage=ru.andrey.notepad, appWaitActivity=ru.andrey.notepad.MainActivity, databaseEnabled=false, appActivity=ru.andrey.notepad.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=MotoE2}]
+Session ID: b3e4ef46-1883-4b6f-be36-7b387d4aa85b
+*** Element info: {Using=id, value=ru.andrey.notepad:id/button4}
+
+
+# Created at 2018-09-06T14:14:19.953
+Unexpected IOException with stream: 
+
+
+
+# Created at 2018-09-06T14:14:19.953
+Unexpected IOException with stream: ========++++++0906141419953========++++++++++
+
+
+# Created at 2018-09-06T14:14:19.955
+Unexpected IOException with stream: Sep 06, 2018 2:14:19 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only
+
+
+# Created at 2018-09-06T14:14:19.976
+Unexpected IOException: 8,1,android.workpulsetask.index.NotepadIndex,tearDown(android.workpulsetask.index.NotepadIndex),null,A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 8 milliseconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.1.114'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0-ea'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities [{appPackage=ru.andrey.notepad\002C noReset=true\002C deviceName=TA09407DYT\002C platform=LINUX\002C deviceUDID=TA09407DYT\002C desired={app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C noReset=true\002C newCommandTimeout=600\002C platformVersion=5.1\002C autoGrantPermissions=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceName=TA09407DYT\002C resetKeyboard=true}\002C newCommandTimeout=600\002C platformVersion=5.1\002C webStorageEnabled=false\002C takesScreenshot=true\002C javascriptEnabled=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceManufacturer=motorola\002C resetKeyboard=true\002C app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C deviceScreenSize=540x960\002C networkConnectionEnabled=true\002C warnings={}\002C appWaitPackage=ru.andrey.notepad\002C appWaitActivity=ru.andrey.notepad.MainActivity\002C databaseEnabled=false\002C appActivity=ru.andrey.notepad.MainActivity\002C locationContextEnabled=false\002C autoGrantPermissions=true\002C deviceModel=MotoE2}]\000ASession ID: b3e4ef46-1883-4b6f-be36-7b387d4aa85b,null,A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 8 milliseconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.1.114'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0-ea'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities [{appPackage=ru.andrey.notepad\002C noReset=true\002C deviceName=TA09407DYT\002C platform=LINUX\002C deviceUDID=TA09407DYT\002C desired={app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C noReset=true\002C newCommandTimeout=600\002C platformVersion=5.1\002C autoGrantPermissions=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceName=TA09407DYT\002C resetKeyboard=true}\002C newCommandTimeout=600\002C platformVersion=5.1\002C webStorageEnabled=false\002C takesScreenshot=true\002C javascriptEnabled=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceManufacturer=motorola\002C resetKeyboard=true\002C app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C deviceScreenSize=540x960\002C networkConnectionEnabled=true\002C warnings={}\002C appWaitPackage=ru.andrey.notepad\002C appWaitActivity=ru.andrey.notepad.MainActivity\002C databaseEnabled=false\002C appActivity=ru.andrey.notepad.MainActivity\002C locationContextEnabled=false\002C autoGrantPermissions=true\002C deviceModel=MotoE2}]\000ASession ID: b3e4ef46-1883-4b6f-be36-7b387d4aa85b,NotepadIndex>AppiumInit.tearDown:212 \00BB SessionNotFound A session is either ter...,org.openqa.selenium.remote.SessionNotFoundException: \000AA session is either terminated or not started (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 8 milliseconds\000ABuild info: version: '2.46.0'\002C revision: '61506a4624b13675f24581e453592342b7485d71'\002C time: '2015-06-04 10:22:50'\000ASystem info: host: 'DELL-PC'\002C ip: '192.168.1.114'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0-ea'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities [{appPackage=ru.andrey.notepad\002C noReset=true\002C deviceName=TA09407DYT\002C platform=LINUX\002C deviceUDID=TA09407DYT\002C desired={app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C noReset=true\002C newCommandTimeout=600\002C platformVersion=5.1\002C autoGrantPermissions=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceName=TA09407DYT\002C resetKeyboard=true}\002C newCommandTimeout=600\002C platformVersion=5.1\002C webStorageEnabled=false\002C takesScreenshot=true\002C javascriptEnabled=true\002C unicodeKeyboard=true\002C platformName=Android\002C deviceManufacturer=motorola\002C resetKeyboard=true\002C app=D:\005Cvipul\005CMobile_automation\005CWorkpulse_Automation_TestNG\005Capp\005CNotepad.apk\002C deviceScreenSize=540x960\002C networkConnectionEnabled=true\002C warnings={}\002C appWaitPackage=ru.andrey.notepad\002C appWaitActivity=ru.andrey.notepad.MainActivity\002C databaseEnabled=false\002C appActivity=ru.andrey.notepad.MainActivity\002C locationContextEnabled=false\002C autoGrantPermissions=true\002C deviceModel=MotoE2}]\000ASession ID: b3e4ef46-1883-4b6f-be36-7b387d4aa85b\000A
+
+
+# Created at 2018-09-06T14:14:20.113
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

@@ -39,6 +39,13 @@ public class NotepadIndex extends AppiumInit{
 		
 		//NotepadIndexPage.Entertextinsearchfield(androidDriver);
 		
+		
+		NotepadIndexPage.editnote(androidDriver);
+		
+        NotepadIndexPage.clickonverticalbarbutton(androidDriver);
+		
+		NotepadIndexPage.clickonhome(androidDriver);
+		
 		NotepadIndexPage.deletethenote(androidDriver);
 		
 		//NotepadIndexPage.clickonoktodelete(androidDriver);
@@ -84,5 +91,8 @@ public class NotepadIndex extends AppiumInit{
 		NotepadIndexPage.clickonBackgroundcolor(androidDriver);
 		NotepadIndexPage.movethecolorindicator(androidDriver);
 	}//end of function
+	
+	
+	
 
 }//end of class

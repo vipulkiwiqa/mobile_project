@@ -59,6 +59,24 @@
       <![CDATA[<br>Found the note</br>]]>
     </line>
     <line>
+      <![CDATA[<br>Enter Note</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Note Entered</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Click for home page</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Click Home Menu</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Enter Text on Search Field</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Found the note</br>]]>
+    </line>
+    <line>
       <![CDATA[<br>Note Deleted</br>]]>
     </line>
     <line>
@@ -80,12 +98,12 @@
       <![CDATA[<br>Set the color Indicator</br>]]>
     </line>
   </reporter-output>
-  <suite name="Mobile Application" duration-ms="230365" started-at="2018-09-06T05:52:50Z" finished-at="2018-09-06T05:56:40Z">
+  <suite name="Mobile Application" duration-ms="368344" started-at="2018-09-21T05:59:01Z" finished-at="2018-09-21T06:05:09Z">
     <groups>
     </groups>
-    <test name="create note:: 01" duration-ms="176534" started-at="2018-09-06T05:52:50Z" finished-at="2018-09-06T05:55:47Z">
+    <test name="create note:: 01" duration-ms="289324" started-at="2018-09-21T05:59:01Z" finished-at="2018-09-21T06:03:50Z">
       <class name="android.workpulsetask.index.NotepadIndex">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.workpulsetask.index.NotepadIndex@7085bdee]" name="setUp" is-config="true" duration-ms="16743" started-at="2018-09-06T11:22:50Z" finished-at="2018-09-06T11:23:07Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.workpulsetask.index.NotepadIndex@7085bdee]" name="setUp" is-config="true" duration-ms="31519" started-at="2018-09-21T11:29:01Z" finished-at="2018-09-21T11:29:32Z">
           <params>
             <param index="0">
               <value>
@@ -105,7 +123,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createthenote()[pri:0, instance:android.workpulsetask.index.NotepadIndex@7085bdee]" name="createthenote" duration-ms="156543" started-at="2018-09-06T11:23:07Z" finished-at="2018-09-06T11:25:43Z">
+        <test-method status="PASS" signature="createthenote()[pri:0, instance:android.workpulsetask.index.NotepadIndex@7085bdee]" name="createthenote" duration-ms="249921" started-at="2018-09-21T11:29:32Z" finished-at="2018-09-21T11:33:42Z">
           <reporter-output>
             <line>
               <![CDATA[<br>******** Test case ID: Add_Notes_01</br>]]>
@@ -156,11 +174,29 @@
               <![CDATA[<br>Found the note</br>]]>
             </line>
             <line>
+              <![CDATA[<br>Enter Note</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Note Entered</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Click for home page</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Click Home Menu</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Enter Text on Search Field</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Found the note</br>]]>
+            </line>
+            <line>
               <![CDATA[<br>Note Deleted</br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- createthenote -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.workpulsetask.index.NotepadIndex@7085bdee]" name="tearDown" is-config="true" duration-ms="3237" started-at="2018-09-06T11:25:43Z" finished-at="2018-09-06T11:25:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.workpulsetask.index.NotepadIndex@7085bdee]" name="tearDown" is-config="true" duration-ms="7872" started-at="2018-09-21T11:33:42Z" finished-at="2018-09-21T11:33:50Z">
           <params>
             <param index="0">
               <value>
@@ -173,9 +209,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- android.workpulsetask.index.NotepadIndex -->
     </test> <!-- create note:: 01 -->
-    <test name="Choose Backgrount color:: 02" duration-ms="53811" started-at="2018-09-06T05:55:47Z" finished-at="2018-09-06T05:56:40Z">
+    <test name="Choose Backgrount color:: 02" duration-ms="79005" started-at="2018-09-21T06:03:50Z" finished-at="2018-09-21T06:05:09Z">
       <class name="android.workpulsetask.index.NotepadIndex">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.workpulsetask.index.NotepadIndex@dc24521]" name="setUp" is-config="true" duration-ms="16699" started-at="2018-09-06T11:25:47Z" finished-at="2018-09-06T11:26:03Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.workpulsetask.index.NotepadIndex@dc24521]" name="setUp" is-config="true" duration-ms="27192" started-at="2018-09-21T11:33:50Z" finished-at="2018-09-21T11:34:17Z">
           <params>
             <param index="0">
               <value>
@@ -195,7 +231,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="changebackgroundcolor()[pri:0, instance:android.workpulsetask.index.NotepadIndex@dc24521]" name="changebackgroundcolor" duration-ms="34247" started-at="2018-09-06T11:26:03Z" finished-at="2018-09-06T11:26:38Z">
+        <test-method status="PASS" signature="changebackgroundcolor()[pri:0, instance:android.workpulsetask.index.NotepadIndex@dc24521]" name="changebackgroundcolor" duration-ms="44151" started-at="2018-09-21T11:34:17Z" finished-at="2018-09-21T11:35:02Z">
           <reporter-output>
             <line>
               <![CDATA[<br>Clicked on logo</br>]]>
@@ -208,7 +244,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- changebackgroundcolor -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.workpulsetask.index.NotepadIndex@dc24521]" name="tearDown" is-config="true" duration-ms="2864" started-at="2018-09-06T11:26:38Z" finished-at="2018-09-06T11:26:40Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.workpulsetask.index.NotepadIndex@dc24521]" name="tearDown" is-config="true" duration-ms="7662" started-at="2018-09-21T11:35:02Z" finished-at="2018-09-21T11:35:09Z">
           <params>
             <param index="0">
               <value>
